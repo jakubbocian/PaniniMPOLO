@@ -16,6 +16,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: ftp.samkirkland.com
-        username: myFtpUserName
+        server: ftp.iismpsnacks.altervista.org
+        username: iismpsnacks
         password: ${{ secrets.password }}
