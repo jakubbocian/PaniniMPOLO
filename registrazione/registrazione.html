@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function mandaEmail(){
+            email = document.getElementById("email").value;
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("risposta").innerHTML = this.responseText;
+                }
+            };
+            xmlhttp.open("GET", "controlloEmail.php?email=" + email, true);
+            xmlhttp.send();
+        }
+    </script>
+</head>
+
+<body>
+
+    Email: <input type="email" id="email">
+    <input type="button" id="mandaEmail" value="Invia email" onclick="mandaEmail()">
+    <br>
+    <span id="risposta"></span>
+
+</body>
+
+</html>
