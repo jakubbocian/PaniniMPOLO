@@ -9,7 +9,11 @@ function getAlunni() {
     return $dati;
 }
 
-
+/*
+    * Controlla se l'email è presente nel dominio
+    * @param $email email da controllare
+    * @return true se l'email è presente nel dominio, false altrimenti
+*/
 function checkEmail($email) {
     $dati = getAlunni();
     $fp = fopen("db_marcopolo.csv", "r");
