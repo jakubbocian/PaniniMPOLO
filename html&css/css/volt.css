@@ -23015,7 +23015,7 @@ textarea.form-control-lg {
 
 @media (min-width: 992px) {
     .content1 {
-        margin-left: 1px;
+        margin-left: 5px;
     }
 }
 
@@ -23034,7 +23034,7 @@ textarea.form-control-lg {
 
 @media (min-width: 992px) {
     .content {
-        margin-left: 260px;
+        margin-left: 0px;
     }
 }
 
