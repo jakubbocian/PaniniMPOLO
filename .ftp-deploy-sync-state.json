@@ -1,13 +1,2741 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1670422310496,
+    "generatedTime": 1670865080206,
     "data": [
+        {
+            "type": "file",
+            "name": ".ftp-deploy-sync-state.json",
+            "size": 558,
+            "hash": "631c41305a64f9cbd55ec8d1a8493f648aa5ee78cca4a651c9bd1b43f1029326"
+        },
+        {
+            "type": "file",
+            "name": "CustomerPanel.html",
+            "size": 57185,
+            "hash": "0d20f826adbe91fb0c9c8815a1c3b4a87bec4ef29ad17de532baea2aff35af6d"
+        },
+        {
+            "type": "file",
+            "name": "LICENSE.md",
+            "size": 1068,
+            "hash": "89c5b41a68b3fb6892f6097c08d087aa8b398e72506cc3b516b7fd3e581e5caf"
+        },
         {
             "type": "file",
             "name": "README.md",
             "size": 14,
             "hash": "01803bdae89d38b6354240705ba984300de9bf1602a2dc6daaca42a3c8c67b8a"
+        },
+        {
+            "type": "file",
+            "name": "gulpfile.js",
+            "size": 8763,
+            "hash": "7acd8c54429c83e1c6c6d2be4d6a7cd7a506c796d75674c288bff6104fa3faeb"
+        },
+        {
+            "type": "folder",
+            "name": "html&css"
+        },
+        {
+            "type": "file",
+            "name": "index.html",
+            "size": 471,
+            "hash": "deb3e4267464bf25d9d0b641af17429e47e632a4416a9b038774b03ca2b857bb"
+        },
+        {
+            "type": "file",
+            "name": "package-lock.json",
+            "size": 708956,
+            "hash": "125bbc524af61f71a9b2d25fa4e50b4fa0e587bdb5c970b78f0d7577f7ac3e58"
+        },
+        {
+            "type": "file",
+            "name": "package.json",
+            "size": 2063,
+            "hash": "c0f99b5d209bd15cec315aeead3d2492035233dce6f396cf9f322c9256c1e601"
+        },
+        {
+            "type": "folder",
+            "name": "registrazione"
+        },
+        {
+            "type": "file",
+            "name": "html&css/.DS_Store",
+            "size": 6155,
+            "hash": "030eb8230618b0a38cd2c26cf30592d0c70c31091add170244aea36d00e7193e"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/assets"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/css"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/pages"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor"
+        },
+        {
+            "type": "file",
+            "name": "registrazione/controlloEmail.php",
+            "size": 756,
+            "hash": "7ec0263e45ac5273c045d2c5a799f6546ad367d35efd178a23097ebe537f3a5c"
+        },
+        {
+            "type": "file",
+            "name": "registrazione/db_marcopolo.csv",
+            "size": 40489,
+            "hash": "700898801ea5f512d12f59ee4ffda3c7296f3fb8ac5d4bd02abb54c94c2ef5f0"
+        },
+        {
+            "type": "file",
+            "name": "registrazione/registrazione.html",
+            "size": 753,
+            "hash": "e58deff598ee2bfbebbb6acbf8e19d93ad7fdc39c18ba7f4ea60b3d4db87629e"
+        },
+        {
+            "type": "file",
+            "name": "registrazione/registrazione.php",
+            "size": 965,
+            "hash": "0f3f9ef7ba2b31ce0f5308289cafbd27a98434580b51364509e0b679797a078a"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/.DS_Store",
+            "size": 6148,
+            "hash": "a493cae584b61ebaeda67b92665f4ed227bff28b90c907ef55a8a3f6dd4d71f3"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/assets/img"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/assets/js"
+        },
+        {
+            "type": "file",
+            "name": "html&css/css/animate.css",
+            "size": 75017,
+            "hash": "0088f7df1fcef1a00f1d69412203b45ff534250e4c61c2bd29f4f5c54bece19c"
+        },
+        {
+            "type": "file",
+            "name": "html&css/css/apexcharts.css",
+            "size": 13010,
+            "hash": "6d0b4677360f47713c048822ca51f207c7faf40c304cef05b36d7f3e619c4d6d"
+        },
+        {
+            "type": "file",
+            "name": "html&css/css/choices.min.css",
+            "size": 6735,
+            "hash": "d4712372b45c563b940615694bf6b471dd406075392b2201957287649248d442"
+        },
+        {
+            "type": "file",
+            "name": "html&css/css/css2.css",
+            "size": 13692,
+            "hash": "1b5224e18faff56fb4107f7f14ce0e8060904c1505331e7094bf5f4018c41869"
+        },
+        {
+            "type": "file",
+            "name": "html&css/css/dropzone.min.css",
+            "size": 9846,
+            "hash": "0202fcc8498d7cbb42a47fa0629f71a89c220c84c6a9cc006c8f2d09f9d8da5c"
+        },
+        {
+            "type": "file",
+            "name": "html&css/css/leaflet.css",
+            "size": 13632,
+            "hash": "cb8803114fe9c49ae6a21984645896cd988a0db6b8a8db039944e45098c83795"
+        },
+        {
+            "type": "file",
+            "name": "html&css/css/main.min.css",
+            "size": 25408,
+            "hash": "af6b3f74af94814054d3ee240caf774554ce3b9a9bcc3f972112433b12a54c53"
+        },
+        {
+            "type": "file",
+            "name": "html&css/css/notyf.min.css",
+            "size": 5159,
+            "hash": "23092f64d442ff74b6e8ed605b08c120d9ab3d9e3362f3d7e33ffdf0e2961e44"
+        },
+        {
+            "type": "file",
+            "name": "html&css/css/paddle.css",
+            "size": 33052,
+            "hash": "4995380d81230fee3b978e1af8d6cd6ba16c806258afe85a1412ed559e0285b3"
+        },
+        {
+            "type": "file",
+            "name": "html&css/css/volt.css",
+            "size": 551147,
+            "hash": "c627151d51fe93dfb62cfbd2c132e4ae83e462b41dcf931cc5462bdb8e47fd80"
+        },
+        {
+            "type": "file",
+            "name": "html&css/css/volt.css.map",
+            "size": 1182842,
+            "hash": "5eea2321878b33851a6c65ab5bd44c0fc2ee1a03d54989cf25639fb8bea558f8"
+        },
+        {
+            "type": "file",
+            "name": "html&css/css/sweetalert2.min.css",
+            "size": 22627,
+            "hash": "aa95f071c1589dc1f9813a9715ef445d9f10783c3545eebc6db3557c56732338"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/.DS_Store",
+            "size": 6154,
+            "hash": "76174de9216c7b6dc5ae7b3849b182aee93f13ac34db085a0add57a639a3e650"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/pages/admin"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/calendar.html",
+            "size": 39697,
+            "hash": "89a0eb6b5efa83746b56d29ab831878eab4e410b72b2c373443c017d9314f4c6"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/pages/components"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/pages/customer"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/pages/examples"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/settings.html",
+            "size": 48604,
+            "hash": "e4b45c9c127f19d6e84768392b7f10e3567d1e792c8e255011356103ca560bc1"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/pages/tables"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/tasks.html",
+            "size": 62847,
+            "hash": "2cca667880f7432cebae70130a5b7fedfb660df68e45741d3f2f31fb1725a23d"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/transactions.html",
+            "size": 47982,
+            "hash": "d1929487a9aae6ba226a8433353bd9f777ce28fe94bd754f542f3e35a9040de7"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/users.html",
+            "size": 69715,
+            "hash": "ac15ba8175825c55255e6b800960d8040c3cd0f0f98c894e13fac53a86e2614b"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/widgets.html",
+            "size": 83072,
+            "hash": "4de3ad03a98dbca99bf0300497f534a3267f9cf3dc8a5fec8469679303c838cc"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/.DS_Store",
+            "size": 10239,
+            "hash": "b69f725ecc9bb86fa5c2b5ab64a975aa654160e2698aac045f132f8e28d8e715"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/@popperjs"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/bootstrap"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/chartist"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/chartist-plugin-tooltips"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/notyf"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/nouislider"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/onscreen"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/sass"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/simplebar"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/smooth-scroll"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/sweetalert2"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/vanillajs-datepicker"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/waypoints"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/assets/img/brand"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/assets/img/favicon"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/assets/img/flags"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/assets/img/icons"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/assets/img/illustrations"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/marker.svg",
+            "size": 366,
+            "hash": "e765df2b58aef370024ccad1d569f6e790c6bf9eb4f04954460dfbf43d26dee4"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/mockup-calendar-presentation.png",
+            "size": 175908,
+            "hash": "785dc814faff4517e430c67048dab810708626147c70ecb18ed5f203b5b0982a"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/mockup-kanban-presentation.png",
+            "size": 385805,
+            "hash": "02c11e642753f6dc2d6f5d42b8524ac0813dfa97872e24f7803cd5fb00763b30"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/mockup-map-presentation.png",
+            "size": 819686,
+            "hash": "1d7be46a5b8289c215cfced8c3fef145d3928821f944dd035336886ca8450b39"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/mockup-presentation.png",
+            "size": 372385,
+            "hash": "5ce54b4e3c002c86780310d40dca33e2ec8720550c5ca742e37e3e161728f0bc"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/assets/img/pages"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/paypal-logo.svg",
+            "size": 4053,
+            "hash": "80259cdaa695c176baf24e1e147876bb26bc2f3ddb262b6ec9ce381b2228dd77"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/profile-cover.jpg",
+            "size": 163522,
+            "hash": "6ee5977901e3d0327a949ffe0b2e35d0ea23d8af4e1f0606206f56fc38f74f5d"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/assets/img/team"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/assets/img/technologies"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/themesberg-logo-alt.svg",
+            "size": 6684,
+            "hash": "9880c4a17337cf072723f85e6f3d2949ed0b72f1749b81c6004f60391eada218"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/themesberg-mockup.jpg",
+            "size": 18004,
+            "hash": "64452cf2579444bc4c35d383228a14ae6fe7439c3e333cf07ca876f8b6ee68a7"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/themesberg.svg",
+            "size": 2234,
+            "hash": "d9211973f8a6379a78a31911226f0575658a8b73706a15344b7838c801970d1a"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/js/volt.js",
+            "size": 11740,
+            "hash": "8bf4e85a8ea8b9c4c6427d7d2d35f5622567ceec1cdf860052c3858400062dde"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/admin/AdminPanel.html",
+            "size": 148268,
+            "hash": "dcc4e04001458ceebf8f20faa17495ac7f180d077a9a66919e28f4e4a21dad17"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/components/buttons.html",
+            "size": 67368,
+            "hash": "a94803127912916973eb278caad90cc0110a44d55aa91df8af2624db16ea4b99"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/components/forms.html",
+            "size": 53122,
+            "hash": "d857d3b5831566930988a35bdbfe597984f12c5a65ed18d16dcbfa87e47842dc"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/components/modals.html",
+            "size": 74468,
+            "hash": "0fc6e00d955afa34f6da272d52decb73d5d310cf5762bd0fbc26ba0b53041f36"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/components/notifications.html",
+            "size": 47699,
+            "hash": "301d99ea2232d9e2fd37ceab4fe3d47a90bdc379e48d8584e8918bbd31346cea"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/components/typography.html",
+            "size": 49945,
+            "hash": "7a86def8f35976691a2c5e0e4dbbf2dddf17cb0ee41d495c7bf2122830227dfd"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/customer/CustomerPanel.html",
+            "size": 516300,
+            "hash": "3bd557b736d1d3167ff36c9e4f74913c100809d53d6cd3e990dd90c80ca89e09"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/examples/.DS_Store",
+            "size": 6148,
+            "hash": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/examples/404.html",
+            "size": 6736,
+            "hash": "b75211ac28a9ddf28731d3f9156979372d065b9a6f1b50c4fd739ec918a8342d"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/examples/500.html",
+            "size": 6834,
+            "hash": "3c480e15a79b14fdf5723b3dfda6dbabc6c3f811d1be5ee7aca3bb5eb118f38f"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/examples/billing.html",
+            "size": 39458,
+            "hash": "aef5c817b39c026222c820096489a364ee9c394db5be6999b6b03d273ab32213"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/examples/forgot-password.html",
+            "size": 7474,
+            "hash": "98d740df4659441d70ccdf4a4103458e6cbc1861ff445f1fcefddb848bab889c"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/examples/invoice.html",
+            "size": 36752,
+            "hash": "b5bb7cddb33059c51305d1da4577b8d89edfe8bcbc36d68ad183bcdd5f821dd0"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/examples/lock.html",
+            "size": 8152,
+            "hash": "e8f4bc4b56a8b85038425902013f3637d1493bab1b96d30f57cdd4c1c9356b60"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/examples/reset-password.html",
+            "size": 9297,
+            "hash": "cea6380b9f4fbad1b2edb097ec636350fb74e949cb4a47e420d12017f20ae240"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/examples/sign-in.html",
+            "size": 14105,
+            "hash": "0389d142d113a48b78f006d7c40e7f0e00ed8212464fa44c406f8e0862da2a55"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/examples/sign-up.html",
+            "size": 15040,
+            "hash": "1ca3b643fa1891560384fc8c42661fa3e404b189924de3f837c1870b2a6c1874"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/tables/bootstrap-tables.html",
+            "size": 73070,
+            "hash": "9ba35a0a88e1f9c15f80895351694972e830398949238e10359a348aca55abea"
+        },
+        {
+            "type": "file",
+            "name": "html&css/pages/tables/datatables.html",
+            "size": 41825,
+            "hash": "6ea9f9a5535aebf5c660ae763a3f151beb5fe35b3467a7e0e923719eb973e807"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/@popperjs/core"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/bootstrap/dist"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/chartist/dist"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/chartist-plugin-tooltips/dist"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/notyf/notyf.es.js",
+            "size": 18811,
+            "hash": "08e8f3e5b41b81720b3373daac0d6676b20aa16d683f8be252087f33549afe6f"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/notyf/notyf.min.css",
+            "size": 5159,
+            "hash": "23092f64d442ff74b6e8ed605b08c120d9ab3d9e3362f3d7e33ffdf0e2961e44"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/notyf/notyf.min.js",
+            "size": 7646,
+            "hash": "52796990c2dab1a4f1d99aa8bf105751c4398eade829769967569610d3451131"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/notyf/notyf.umd.js",
+            "size": 20746,
+            "hash": "4bb3d4f3c5b8a810cb522498cf47e507f1ea2b5ee21ba932bb53ea37368dca69"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/nouislider/dist"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/onscreen/dist"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/sass/sass.dart.js",
+            "size": 4248150,
+            "hash": "2ab5ec2045ba1acb477a09c7eda3f490bf240eba5064c17e31157f12ced7185a"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/sass/sass.default.dart.js",
+            "size": 86,
+            "hash": "146019ec68f94ef65359450094c4d8ac7af37ba02c324f2314555374977e9b92"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/sass/sass.js",
+            "size": 196,
+            "hash": "bc36f36254a4b806586569531da049db53600279ee3ef2ebe95eb61dbc53b9a1"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/simplebar/dist"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/smooth-scroll/dist"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/sweetalert2/dist"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/vanillajs-datepicker/dist"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/waypoints/lib"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/waypoints/licenses.txt",
+            "size": 1153,
+            "hash": "6858cc8d78606752bb9505ec4209805e8bd69f3ee415cd286f76736c172b01b7"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/waypoints/testem.json",
+            "size": 463,
+            "hash": "d422bd9630d6eb7b6119f6f86c701f7a6c38fe685e261591f368fabbab3744d3"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/brand/dark.svg",
+            "size": 890,
+            "hash": "0ddb83aa75f9158095a44afac9af2b0d3291076db9f8a2f7d8a93427ced14946"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/brand/light.svg",
+            "size": 450,
+            "hash": "b05a620c4e1c7eeb7188f39f29b95fbc3715e4cb9274284d01cbbbc43f53ca5c"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/favicon/android-chrome-192x192.png",
+            "size": 11832,
+            "hash": "e940a996b61b1d58a21b855365d42248aa1359ccaba667f8c7e45b8554ff33be"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/favicon/android-chrome-512x512.png",
+            "size": 32392,
+            "hash": "41b90b8dab5a1c00692e56d0ff05b2f5e33c698e652dbe777cc97733f36e1806"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/favicon/apple-touch-icon.png",
+            "size": 5617,
+            "hash": "96d11397fb2eeb77839a9f2cf9a7497ecbf81b18103baf07803bd14426fc327a"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/favicon/browserconfig.xml",
+            "size": 246,
+            "hash": "10c2782332cfba2e8300b1d083aaa6f90593bc6461e43d427abf194624b84545"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/favicon/favicon-16x16.png",
+            "size": 1102,
+            "hash": "dd8350d28df8dddc44d498498902adf7b0b1703753389fae08c774f5b519a6d8"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/favicon/favicon-32x32.png",
+            "size": 1775,
+            "hash": "c6d1e738990da434ba62162f31d0075aaeedbe0a7e9a50727105ffa56a5aace2"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/favicon/favicon.ico",
+            "size": 15086,
+            "hash": "b1476ec228b71ef56c7d309e5ba920186be0086e995d2ee192263634dc167cfc"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/favicon/manifest.json",
+            "size": 472,
+            "hash": "0a34ec8f85558aa86b21ce568bf253d7e1279a38a8bdb84facec8c84b14f851c"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/favicon/mstile-150x150.png",
+            "size": 5015,
+            "hash": "93522ff670e1624c23ddd10e77cebf51a8e1dc5114baed5cf3fdf13a91916d98"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/favicon/safari-pinned-tab.svg",
+            "size": 2337,
+            "hash": "434e27faf15c1f62d708ad3df1805dfea2ad6af8c85292ec25076b2f7be0e88b"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/favicon/site.webmanifest",
+            "size": 446,
+            "hash": "602137faf10334696610a9b0d4b51d6722fa28c647af6176cc93a8de0d6abdae"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/icons/github.svg",
+            "size": 3133,
+            "hash": "2518096dfbfe3f62e4fe399cda3eb0812974456c65b9d071754e6528a639b04d"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/icons/google-tag-manager.svg",
+            "size": 1001,
+            "hash": "7c2cd3efee48be0afa77d4adc439c78d0f80ad31de172d08361b0582fe1c67fd"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/icons/google_analytics.svg",
+            "size": 428,
+            "hash": "e3fbb4df689c17a34502f3076a42b6fa259d4ef0a5ce0436105afdf4e8cc0b75"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/illustrations/404.svg",
+            "size": 21305,
+            "hash": "a4857dc258386e9bf2c8bf88f608afde2f25fb3bc30708dbc3bb772d000b2297"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/illustrations/500.svg",
+            "size": 19716,
+            "hash": "17a1a37e89791e7454b42cab7c8b4f22e814e560e3281761be1b77a6a4e035dd"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/illustrations/bs5-illustrations.svg",
+            "size": 11201,
+            "hash": "5322fc7a30197afb252363291c8d9c63b2025a97d011c11f07eeb137c0fdf66b"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/illustrations/signin.svg",
+            "size": 65073,
+            "hash": "41c2b273284f7a6117917b6f86ef111a90ee194161544d0ecfec99818f15a04c"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/aland-islands.svg",
+            "size": 1679,
+            "hash": "fd7f66e2855939a1f0c0c7dc61b74273043e8f753f89f2e796846ed26cc32d85"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/albania.svg",
+            "size": 1287,
+            "hash": "588105b2eeee2cbf85a76c9dbaec12173ba4eefcd6092d86f699008133788a96"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/algeria.svg",
+            "size": 1277,
+            "hash": "f45f53a3248cb80a7997013f33797365673e9f128ca45b5746f4eb6f9967d21b"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/american-samoa.svg",
+            "size": 1504,
+            "hash": "7fd67b848ab22b2b0efc1ac376eac9b77fe4dea480f562e27a8f29ae29ee65d9"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/anguilla.svg",
+            "size": 2868,
+            "hash": "825babefc404f508801aea905df1f58eeb3117f2e1bf5225bf479fd8fbe78ed3"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/argentina.svg",
+            "size": 1154,
+            "hash": "fec99f2b78f4cb04199a71591a99adc6a66a7c014a9fc6dadfcaa7d07fc2cbb2"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/armenia.svg",
+            "size": 970,
+            "hash": "af62951bd6726b32671fe235638dae6226bed9b73cb0736b3d36330851d201d1"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/australia.svg",
+            "size": 2966,
+            "hash": "a03fac118f9129a069b48741907b495ae22df0be7d2434fa5b8b65e07323d71a"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/austria.svg",
+            "size": 982,
+            "hash": "30f8ecedc1f4e10e8c1409c187faae47f25519b70addfea43d5da9c83365669c"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/azerbaijan.svg",
+            "size": 1620,
+            "hash": "213c31e6d12912a6acd9cd215efa29bb4c723effed591263854982500e132edb"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/bahrain.svg",
+            "size": 863,
+            "hash": "01ae623c9bd0c60bbb5a13f8fc14b56c21b596e28ef5e84ae9c58690bcf7bae5"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/belarus.svg",
+            "size": 1594,
+            "hash": "2c67564215972f5f59fc88ed0af9128f2da859f4f25c1496e0719512c97a63b6"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/belgium.svg",
+            "size": 945,
+            "hash": "87a07f2be26e65c31ec87663e4d3ec002b2abfe21fa0b6fcca9620830427c6fd"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/bolivia.svg",
+            "size": 970,
+            "hash": "a808c519365c636a542a7ea045bbfaae38d30506794e231f6cee79ebb2f111e0"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/bosnia-and-herzegovina.svg",
+            "size": 2032,
+            "hash": "f328ee8f5ad5d7e091d602eb83128eede5ac0993ac58c880aaa89dd5a8b31448"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/botswana.svg",
+            "size": 1233,
+            "hash": "9a7041a4582bfe5509bd9dc2eb2dce6e13e1b9966cb237373033ac86c6be4404"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/brazil.svg",
+            "size": 1186,
+            "hash": "d8beae49f0e856080317be62dc5d112288159049fa1b35e4d3db26a8d9bffa67"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/bulgaria.svg",
+            "size": 970,
+            "hash": "f6ec0e29a8355d4d227633078d9b79d4535e4268bf9e21ab7cca5e8ab930aea2"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/cambodia.svg",
+            "size": 1329,
+            "hash": "11e4c46914bae200fd9d8d0f00bd9975bacaa10d326875d916ac6d8217dfa2d7"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/cameroon.svg",
+            "size": 1171,
+            "hash": "cef84e038b35ed020019875a7cc63feeb88d081425bfbda7ea0debe2a2c3cdc9"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/canada.svg",
+            "size": 1171,
+            "hash": "3a90c217bbffa2441f9c0c7afd12912b95cc4bac65892af4a286e586053efbba"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/chile.svg",
+            "size": 985,
+            "hash": "fd52b9fddf20be87afe3a49f583c932a465221407b43e076d5b9bccde59d88b2"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/china.svg",
+            "size": 1258,
+            "hash": "4f529cb495e5d03a8b020c81d0746785b923c8943d37419410d3a7e36fb816f8"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/colombia.svg",
+            "size": 864,
+            "hash": "429607312d963725bb5418d37665b29bcf3484115ea97534a3a9715c4eff8811"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/costa-rica.svg",
+            "size": 1001,
+            "hash": "0e7107347884a9449699dbafec22f1509bf097980120097a5f5b227998e0b56e"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/croatia.svg",
+            "size": 3084,
+            "hash": "a85cde4905f8d58b5b295096a20aae69270129b3f63debecbaf82dbd7d544c43"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/cuba.svg",
+            "size": 1520,
+            "hash": "6f373b1824e2d39d89f5cd1a2ff084e40221364a68675d37bde9dc6c8bc97661"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/cyprus.svg",
+            "size": 1289,
+            "hash": "3c88fc223ca55d60bd1e74c6c38884feb9a172337ab91d9587ec3655b4644c60"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/czech-republic.svg",
+            "size": 855,
+            "hash": "16db2d44b2205467b01b76eb5ca7ba241c001ae555c9de48df4b1a99ff7d087f"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/denmark.svg",
+            "size": 1122,
+            "hash": "fe5f0c4c9bf2d207ca70042810fb84710ff279f08a6fc72a31b2992d8cb56362"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/ecuador.svg",
+            "size": 1500,
+            "hash": "ad92ba3da8e2e83f7a293e04db63abd737c2862b579c37d24ded5e9a2bfdf0c5"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/egypt.svg",
+            "size": 1167,
+            "hash": "501cce105daad3e8271897c07b734fc0ce8b309f7ba55438d7a27ec722022fa9"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/estonia.svg",
+            "size": 943,
+            "hash": "2236379ef575715b08837dc45c1878132e64cc198ef6aacd3e0888fc073a6e36"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/ethiopia.svg",
+            "size": 1540,
+            "hash": "6a56fde5b86171d6c4177d7cde6db25424bde767f3fc967bffe376166e96e188"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/finland.svg",
+            "size": 903,
+            "hash": "01b30bde0a69300369dba928373e55f204486e5038e592c78dfff0c8c8ffe607"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/france.svg",
+            "size": 803,
+            "hash": "0aba738784a5eb15f02e1444c7d6c8337f782fbccf8cd12c63cc864e5702e7ce"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/georgia.svg",
+            "size": 1925,
+            "hash": "8d389d721c22307fbd30905340d3830e9f648f56d557ccd879ec08cec20bcdc3"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/germany.svg",
+            "size": 944,
+            "hash": "986552903856b995425777caa1ce31fdb11fb3f6a28027e79013abb5173500a5"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/greece.svg",
+            "size": 1307,
+            "hash": "de5cd1d3cd563fc50b7bff2974961ab73e83183cc709d00a6c824f72759f4acc"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/haiti.svg",
+            "size": 1229,
+            "hash": "f7a4a507ddd2dc9d8e436c639f24953546ee1d5b76182b39e4f729c90b8e73c5"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/hong-kong.svg",
+            "size": 1690,
+            "hash": "421974e0532f5e665f17179167793080b02c940148125855d13fb4c406a142e7"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/hungary.svg",
+            "size": 969,
+            "hash": "4a3a77b3b6dfe9b44f6d0b5062f52520ec6e6cbc8ef61b26b510ff70a9207cb2"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/iceland.svg",
+            "size": 1416,
+            "hash": "869a2aaa0438eeb91661b0fda9ae15f06331b4e35aded23d552b0f280949e0f3"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/india.svg",
+            "size": 1140,
+            "hash": "d0dbbc7229e0686fdf3dbe9c02c01eacf97d939d84f8eb6d37cbd1648bad9e43"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/indonesia.svg",
+            "size": 641,
+            "hash": "888067721e1236fc3fd4175d4ed69d55fc3526ce24e5f25fc107c2ac144e4947"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/iran.svg",
+            "size": 1572,
+            "hash": "ddcf8ddfe7592c90265559d75d0b63dbbaa89f2bff85303e51df9afeff502b08"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/iraq.svg",
+            "size": 1491,
+            "hash": "224d5c04242b89af937de0165326a0e6aaf49589153cfe5968e61ffde690dfdd"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/ireland.svg",
+            "size": 801,
+            "hash": "e7601077211543bd4c969e2886860bfc1fba309ac4a4ca04ecf10413685b6b98"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/israel.svg",
+            "size": 1467,
+            "hash": "bdc7525109b5f0f15c04ab4dcef856822e4426adc2ffb7e3be452732dd2e9dca"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/italy.svg",
+            "size": 803,
+            "hash": "565e94b2666a4c86b26ae01bb416070e93b74ce2040f1ac9a81606a7b853b04d"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/ivory-coast.svg",
+            "size": 970,
+            "hash": "ab5e34583dc9924939dc0629a13a7fde37fbb5f4c0ca0aeb877247b42d2957c7"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/japan.svg",
+            "size": 616,
+            "hash": "ef3de4c76e4b5c39253c4bf53434f9575a9e03c3e925e0e4a3039c0e3e7778a4"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/kazakhstan.svg",
+            "size": 1356,
+            "hash": "fd364522eb80a42afca74440a5b6f5224cb6297ed595b7ef842ea4726d83ed04"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/kuwait.svg",
+            "size": 1094,
+            "hash": "e9eadaf9ad6236bf7ac65f59cd8baf83180cd95ea6b67278adea306376685eed"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/latvia.svg",
+            "size": 810,
+            "hash": "a597118490ae5b6bb7932948a23ddb7a380e0e95be6f199222abebd2e99e7f93"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/liechtenstein.svg",
+            "size": 1093,
+            "hash": "eda2f49961ef9d2907344cfd415ead059693b8cda8efe0249c8293d785f7f213"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/lithuania.svg",
+            "size": 973,
+            "hash": "eca1cbda748af52c622348c271a5a2d5b5c8c434397db4d6b57efbf427adbbc5"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/luxembourg.svg",
+            "size": 801,
+            "hash": "59ffedbb671d301c319ee446dfe5b9ef4842fe2a0c7dd06b7b51e4223d6694c9"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/malaysia.svg",
+            "size": 1791,
+            "hash": "4b3487a062cc1d6084c52d100bbdcffb3d70eb02da24d8331736bce465010b83"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/mexico.svg",
+            "size": 1330,
+            "hash": "585e35089bf8f6c4de9dea4e67cb5f1d4518d89e3c4e58586fc15d4a02fa1277"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/mongolia.svg",
+            "size": 1658,
+            "hash": "6e12c25403c238eb93c823daf467005aa4b5a01597dfa9494a6e0fb91eda52d0"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/montenegro.svg",
+            "size": 1865,
+            "hash": "8f0e9bd2156445eaba45fdcd7233b3ced2c8b28491dc713110847e21ad38fcca"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/nauru.svg",
+            "size": 1229,
+            "hash": "57eeebc60d7207733b161872d2ad0c3753a70325379d472378abd6123b882589"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/netherlands.svg",
+            "size": 801,
+            "hash": "06d25f63ebc6840c2a733d79a5737727daaeac1ee374dd408e59deafbf84df15"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/nicaragua.svg",
+            "size": 1422,
+            "hash": "6cec6535fb320ce45581810fa2910e89b0c970b530f1968865e31b1bdf9492f2"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/nigeria.svg",
+            "size": 812,
+            "hash": "8015738c1bfddd8582895a91551a78849c00091bd8e72edd7fadab6e3aa2c188"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/norway.svg",
+            "size": 1417,
+            "hash": "f5bb30e2b983d5c294b17417b62ccdbd525106b90df5a7e633e91bc4e80a909d"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/pakistan.svg",
+            "size": 1473,
+            "hash": "1a2f3549b56ae7a38c3ebe16e9dd1184c81d549695e6c563f8e0eeb31e2ec64c"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/panama.svg",
+            "size": 1183,
+            "hash": "d101f74b21159f9d8aeedd89c4ffd698f158fc703efc7e5f4cabbaac781d547b"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/paraguay.svg",
+            "size": 1374,
+            "hash": "3baf44bf7001eabc8ca1a38c06d2c38169e678b1f8c1560e34fdbafb1a0ae01b"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/peru.svg",
+            "size": 812,
+            "hash": "e589160467ee7ea7ff47b9df7ffcb09fdf74baf3d6490b161a0461ecca018b8b"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/philippines.svg",
+            "size": 1805,
+            "hash": "e0b785ccb5bb93c5d7662802380972e5f91186fa6112f011d62431638d37d6fc"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/portugal.svg",
+            "size": 1190,
+            "hash": "0d61656101ab61e6fc2773be82cb2cec1a7e305b50aca56f18911d23fc7eb38e"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/puerto-rico.svg",
+            "size": 1331,
+            "hash": "b785e70019c953bbbd6cd002d7b59004cad329b269f35dacef513fc3e4db7265"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/republic-of-macedonia.svg",
+            "size": 1622,
+            "hash": "395868e884dc79a0bb66a56c3f5911828ad18ecaab41b88dc60fe8b76e91ab54"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/republic-of-poland.svg",
+            "size": 643,
+            "hash": "e654df6c192ed4f79b9a2d7ca3636abc5ef2798cc06b2ab06e9f8ce23a0dbba7"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/romania.svg",
+            "size": 1021,
+            "hash": "c8a87dda0bf2418dd02ef85624c2f622e409db5562ffdcfc617c776499286591"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/russia.svg",
+            "size": 887,
+            "hash": "ac5cb8c7b5ea5f206cbc35fac2ba910250a59d0307781d2b6de4f0607de3249a"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/serbia.svg",
+            "size": 1953,
+            "hash": "0e0449be0094a786196c0cdd2fa48840233159eaa979782bbdbbf82bf49b2f41"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/singapore.svg",
+            "size": 1951,
+            "hash": "f8d9d9eb49909fe84cd0530dbcfdc5a1e65dcc62c2f91e7e265bd64fbc3380e8"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/slovakia.svg",
+            "size": 1948,
+            "hash": "04b8bc6a3214275ffe17b695a0f2e25283fe12382bce789baabefbc93e0ea22c"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/slovenia.svg",
+            "size": 1113,
+            "hash": "fa4fd20ff9750ea5dbaf743a09be5080082bbc712e5d3d37a61988372942b1d8"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/south-africa.svg",
+            "size": 1454,
+            "hash": "a5d1f2f1cc530b57aa799d659c6347a6b12963f2c0f61319a3230dc6e092e29e"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/south-korea.svg",
+            "size": 3185,
+            "hash": "e2db1879fb72205d11859f7af82027aeecf87aaa2f111f4403911a521e06a2b6"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/spain.svg",
+            "size": 975,
+            "hash": "4784aa3f4cdd0c1efea1067ac71e4a494e1c6e0c81d1387fdd8f47d4ccfd17b8"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/sri-lanka.svg",
+            "size": 1735,
+            "hash": "e620105de5910d31b2e7e1576c15461f328c5eb21952be34ba82840d94dba99c"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/sweden.svg",
+            "size": 1122,
+            "hash": "9a7863f60bf92719c460a1162308c5bd8b03709a6615b81628ca363aa2adbac9"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/switzerland.svg",
+            "size": 791,
+            "hash": "a131c08a37045bae031ccf64d737b40d8e3c3044678b7585c53e9cfa3a8bf87f"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/taiwan.svg",
+            "size": 1396,
+            "hash": "9de902b19a0ad73266aa2d82e9592a90313364c85a14b8181d3473772c2c535a"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/thailand.svg",
+            "size": 1001,
+            "hash": "afd59fe3a3ba5c812d8e3610d11409e0d63315d9d94b2d3d3120acac36eb34f9"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/tunisia.svg",
+            "size": 1182,
+            "hash": "6b2b0a5b240ae01b187fafb84084e7756033243d2a6077dc2530ca15978c44da"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/turkey.svg",
+            "size": 1117,
+            "hash": "ebd99a905cfcecf68cb4cfb4a2077806274b99f9762d9fd8da622b74aa4d731d"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/ukraine.svg",
+            "size": 641,
+            "hash": "69af3baccaac96a679d9ec42121420c853b95c44e95c76fbb014001001e0b1e0"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/united-arab-emirates.svg",
+            "size": 948,
+            "hash": "6c2cc2c346d9992de6157d2e3cdfb007cabdc8afa750063bbdb0b2f37b89e4c4"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/united-kingdom.svg",
+            "size": 2538,
+            "hash": "6f2958ea93a7ac39f1610a200ce2e4693a98364db48be187dfb6e237c813b7d1"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/united-states-of-america.svg",
+            "size": 2242,
+            "hash": "fbc5c62bf87b3783e2856f95d73531e04467fd60d1bdb2e44a27b1d09191e7b9"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/united-states.svg",
+            "size": 2242,
+            "hash": "fbc5c62bf87b3783e2856f95d73531e04467fd60d1bdb2e44a27b1d09191e7b9"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/uruguay.svg",
+            "size": 1585,
+            "hash": "6f9bd154de268188023baa4cb59eb35039eb4cb78abdb02257f5aabd0b576b93"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/venezuela.svg",
+            "size": 2622,
+            "hash": "c28a8487db7b9ce9e4d1c6d7b8d87793cc576738ff740475edeca8232aa0a635"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/flags/vietnam.svg",
+            "size": 749,
+            "hash": "8e704adbd9246e9f6ad92e181754a77c2c3620200619e29745685abb2727e12b"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/pages/404.jpg",
+            "size": 35052,
+            "hash": "311d541da2d9488130e9b7dd39c9feab54d58a2ba60492f4606b31cf4dfee677"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/pages/500.jpg",
+            "size": 33742,
+            "hash": "1540ed83bd96a44626dce8e4145f811c342eee9777f4c3bcebc1013ec7fc6c16"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/pages/forgot-password.jpg",
+            "size": 20301,
+            "hash": "97b2bd6d469e688dd173998191740845923a32d9439ca387edfbd0b45394cd90"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/pages/lock.jpg",
+            "size": 29709,
+            "hash": "0a8f5256bdac4e9778912aa76216413002f4ce84b6956ac7235322438edd31eb"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/pages/mockup-presentation.png",
+            "size": 372385,
+            "hash": "5ce54b4e3c002c86780310d40dca33e2ec8720550c5ca742e37e3e161728f0bc"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/pages/overview.jpg",
+            "size": 82612,
+            "hash": "7e5d1f90d500066fe744355f172d3bdd2d32ae4094f624085d602bc21598f67e"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/pages/reset-password.jpg",
+            "size": 21035,
+            "hash": "ce34075bcb99e988b1f61b08b4d158a108ef11d4c4b0bf9539f95011d3fc4c45"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/pages/settings.jpg",
+            "size": 46009,
+            "hash": "dd1371a74250c1465b4b7db459ce4107c1eee5d8cd6b54f795fbb504d6d501f9"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/pages/sign-in.jpg",
+            "size": 37220,
+            "hash": "3a5f77e2752920e65503f20b0b5664ee9d7cb5c1d463a666c90e8293349c689e"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/pages/sign-up.jpg",
+            "size": 40172,
+            "hash": "387c0352fd02e34e5f32d5910f7859c716b731cb127af416a4bc2c82d41ccd65"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/pages/transactions.jpg",
+            "size": 46940,
+            "hash": "1469438f1f8338eb8da60ff127cb00db6af63014cb1afbf3bd4d0ed72ecc1470"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/team/profile-picture-1.jpg",
+            "size": 42085,
+            "hash": "7062269faa8d4b417974c6f857a210d8a1284baec20daaeeef7d6f5aeb7686a3"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/team/profile-picture-2.jpg",
+            "size": 31721,
+            "hash": "8fd5caa2673ab7da4c56acceb972be51cdcfa6bec289de75f87ad12a8b495a79"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/team/profile-picture-3.jpg",
+            "size": 62602,
+            "hash": "e17e60dae2f34019b691f8d22513fcb856dede259695a3133f646555d4e0a3a6"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/team/profile-picture-4.jpg",
+            "size": 269348,
+            "hash": "c208861b5396beb7195af79bdfd5445a0bf49b600f645a9b16409a2a96cc6144"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/team/profile-picture-5.jpg",
+            "size": 199080,
+            "hash": "06d7a9f9e2623b866e5cdc6a890e9f038a23553dc0e1c72957c4d3d7a34b962e"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/team/profile-picture-6.jpg",
+            "size": 56807,
+            "hash": "2e76e76a31368a8460e083b89cbbc4cf66cf8a6d033a374eaaa7cc5f10b6adcf"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/technologies/bootstrap-5-logo.svg",
+            "size": 1093,
+            "hash": "8fd10708137a587a656d79902172b6eeda65589271955a9f846c22c42abaa8c0"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/technologies/react-logo-primary.svg",
+            "size": 1193,
+            "hash": "b284d1b3265a18aa12d98b8ce49d41a94cc2908d8d83a29575487d60af568f52"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/technologies/react-logo.svg",
+            "size": 1193,
+            "hash": "2043539afd943d64359ae14b2c5cd4aeeaf58888144f77da8494aaa44242337c"
+        },
+        {
+            "type": "file",
+            "name": "html&css/assets/img/technologies/vuejs-logo.svg",
+            "size": 569,
+            "hash": "2cbec2c18849f9d2e2c28a6468fe5f4fa59eaeccc26596f24e6e9837a3e6329a"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/@popperjs/core/dist"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/bootstrap/dist/css"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/bootstrap/dist/js"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/chartist/dist/chartist.min.css",
+            "size": 11512,
+            "hash": "b1e1b2a8b8f94f9d87c7c5bbfd84da8ed35719741ff8892c7e471a286a1391b6"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/chartist/dist/chartist.min.js",
+            "size": 40352,
+            "hash": "c4d869bb068d8957676ba2fc5b2dc636e433d73f920a6a38358d5cedc27d55d7"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.css",
+            "size": 821,
+            "hash": "2a2640ced31379ccd3cd4a1b0a8486235c8a5320f55ffc2ecb3ed2e7e62b23cb"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js",
+            "size": 3032,
+            "hash": "05d0cc89be9ffc43b0af1637604f5b7eac929aa8b13f9cefa28932c52d6486d6"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/nouislider/dist/nouislider.min.css",
+            "size": 4220,
+            "hash": "9dc9155cfd6331d1f5629881ac0bc63928243fa4c1d83b17ce4921b5200be0ae"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/nouislider/dist/nouislider.min.js",
+            "size": 26465,
+            "hash": "068b283fe162b1234087e1c9d16fdc842a4b673a1184dbc29c4259c5d15f4655"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/nouislider/dist/nouislider.min.mjs",
+            "size": 28212,
+            "hash": "41b3f53dd842a4f30836c028f95f17816b8c07fb27153754c1ce8796411425f6"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/nouislider/dist/nouislider.mjs",
+            "size": 91950,
+            "hash": "6624ac2b088cf99562cb5a209adbeb2983d4ab9d6a1774cb47bcf6db29ea7d72"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/onscreen/dist/index.js",
+            "size": 8245,
+            "hash": "2e8506d1dbebd477da365b111e344f4e2f6bd769e88c7313c42bee599378bb00"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/onscreen/dist/on-screen.es6.js",
+            "size": 12052,
+            "hash": "4dc518d7f302c60c328e82b4484fde87984de74eb3773905eed78a0a0e84db29"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/onscreen/dist/on-screen.umd.min.js",
+            "size": 6940,
+            "hash": "6a501f0691f1bc3d6f581b05b630f21de3b362acdfad2dd48b96f980ee421809"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/simplebar/dist/simplebar-core.esm.js",
+            "size": 32771,
+            "hash": "e6eae61d6613c131b716b81e4ae08f76463131787d64de30ecf953577e081fdc"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/simplebar/dist/simplebar.esm.js",
+            "size": 36530,
+            "hash": "c359d88fadb8a58407d5f5f7a96b75d507b6a801d12258d74fbfc827940d6f4d"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/simplebar/dist/simplebar.min.css",
+            "size": 2937,
+            "hash": "56f1018c32be3d6be2fbe926c035e3e2321fbb09d5a04abdb45ddf3cfc3ae085"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/simplebar/dist/simplebar.min.js",
+            "size": 59030,
+            "hash": "82a1fa6858fd9a84b39638acc8c7211c82c9652c7809c4dd1ba01b4df5c90a61"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/simplebar/dist/simplebar.umd.js",
+            "size": 4604,
+            "hash": "739ed115be8d2ef24ce430d48145817257c42cafc581e954a725a66f90228687"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/smooth-scroll/dist/smooth-scroll.min.js",
+            "size": 5485,
+            "hash": "bcff85fb5e00d68802850b393ac7792c997f722f536f38e26638c46dca8e5eb6"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js",
+            "size": 6563,
+            "hash": "8273d8d03942bb8c3ee319c3c8341b9fde427ab48b9fd65bc25dd5a76ebb1058"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/sweetalert2/dist/sweetalert2.all.min.js",
+            "size": 67490,
+            "hash": "0645206844db7dfe90ca7ae162263e665b43256fb617dc450f4b44c8725df944"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/sweetalert2/dist/sweetalert2.min.css",
+            "size": 24273,
+            "hash": "ec563f903f71f2c757c2bb99cbef2d8cab74e6992ec72179da76eb49acec360f"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/sweetalert2/dist/sweetalert2.min.js",
+            "size": 42959,
+            "hash": "46395b9e574b18c409b15ff3f9c803b196e646a934b63b22f3651fb99b3d0c39"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/css"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/waypoints/lib/jquery.waypoints.min.js",
+            "size": 9028,
+            "hash": "368daab67b1a5b2b2802edbbac79a2aa4ba992a2ebf9c67b98ad784d8004018c"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/waypoints/lib/noframework.waypoints.min.js",
+            "size": 10478,
+            "hash": "42656c5a534309426b3c5452b07c4013df29165e754e36e51d724ad962bebc1f"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/waypoints/lib/shortcuts"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/waypoints/lib/waypoints.debug.js",
+            "size": 1413,
+            "hash": "a6c6fea8674f5edce37f98be5ecb5baea22b7067a137c4362f1853ef326f60b8"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/waypoints/lib/zepto.waypoints.min.js",
+            "size": 9545,
+            "hash": "5879b94aeb41de56578f77692dca2312898b8712b7e7c56caa6b9f01c27885b5"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/@popperjs/core/dist/cjs"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/@popperjs/core/dist/esm"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/@popperjs/core/dist/umd"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/bootstrap/dist/css/bootstrap-grid.min.css",
+            "size": 52805,
+            "hash": "9abd3f5a7973251d6b17cccd16652859f722a145f3e74272a5d31923c18f22c7"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+            "size": 52880,
+            "hash": "e70176090c0f12333fd6eaff470e8e8016a1f55b939b4e9f486eb2684316f383"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/bootstrap/dist/css/bootstrap-reboot.min.css",
+            "size": 6120,
+            "hash": "a6967242d023ba89c757567e0f04270d3938fc652975e8069b5273eea62e3397"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+            "size": 6192,
+            "hash": "31c5e26c684618e486e37c5ee7986f319897624f7f997004f338356f52bdba67"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/bootstrap/dist/css/bootstrap-utilities.min.css",
+            "size": 53455,
+            "hash": "4986784c0307c37fcbbf8e5ca041fa93e9c98f767f703acdc432d3fecad243f8"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+            "size": 53383,
+            "hash": "2b825612c35475443d1b517496b8658ec4d0117f43b187dde5878cf8636f4517"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/bootstrap/dist/css/bootstrap.min.css",
+            "size": 163873,
+            "hash": "62f74b1cf824a89f03554c638e719594c309b4d8a627a758928c0516fa7890ab"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/bootstrap/dist/css/bootstrap.rtl.min.css",
+            "size": 163978,
+            "hash": "5ca792de725d8181267e4d8c911544583cce7c45721aa72390512b2f102211b0"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/bootstrap/dist/js/bootstrap.bundle.min.js",
+            "size": 78129,
+            "hash": "f5210fa3e7f0245a4c51eb7f280092c0ef99fdd28c45e17dab8cc5854fdf4fd3"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/bootstrap/dist/js/bootstrap.esm.min.js",
+            "size": 72614,
+            "hash": "add29659ec2530b15ed7b7b37d041cfb6e15f0e8caf9d4b4f8c3700c9396e966"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/bootstrap/dist/js/bootstrap.min.js",
+            "size": 59219,
+            "hash": "70c3d690bdc5ce3b9a1527c46044989a3176e610882fa99f4523e75bc395bcce"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/css/datepicker-bs4.min.css",
+            "size": 4514,
+            "hash": "6948553dc61400fbe9bf9eccc12dcc7fecf7cfb4276109da3c4ab5e83f7c039b"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/css/datepicker-bs5.min.css",
+            "size": 4512,
+            "hash": "c200325780fe3948531643ef86a5802bfcad914f7008bb5762ea842fd015bf8b"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/css/datepicker-bulma.min.css",
+            "size": 4294,
+            "hash": "8a592fd026699043528bc9ba4ea6953e18333d2d756f67608d445f9a8444dc5c"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/css/datepicker-foundation.min.css",
+            "size": 4239,
+            "hash": "786ceb6ea852ab512faeea84adeef2405e79af32dffeafe82f59bacb28e61f5a"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/css/datepicker.min.css",
+            "size": 5103,
+            "hash": "583e753668877593b9de4fd0c78f5254305fcc2a674fa18875bd0685985ca096"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/datepicker-full.min.js",
+            "size": 34838,
+            "hash": "26078b90f3ead204a11912bc0cb939943ba5bac2f962d6baf702e39822513157"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/datepicker.min.js",
+            "size": 32905,
+            "hash": "7e3e5fe3a2bcaab07aa3e052ce855e70eedb714377b8fc9aea3a640533998e88"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/waypoints/lib/shortcuts/infinite.min.js",
+            "size": 1460,
+            "hash": "ae1063e8430255845486900eec58391264f07ed1095aab44a9908c2db5377bf9"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/waypoints/lib/shortcuts/inview.min.js",
+            "size": 1723,
+            "hash": "b1fa3db14d5339f07b2876a6728e1ef8e90fff70b25e8681f7162f20dce25027"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/waypoints/lib/shortcuts/sticky.min.js",
+            "size": 1243,
+            "hash": "14c52b4f1daa1aa3a92d960a311d4518da07e80b7b1a443d3f1a55c0968c99a0"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/cjs/enums.js",
+            "size": 2037,
+            "hash": "799134c43c4312b74b2679d70269092fa11f75c4206d29232b6f9c54aa338417"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/cjs/enums.js.flow",
+            "size": 45,
+            "hash": "da610523c8d9b8fdd4fab2d323704ea426710355fd393da0a601952b8bcf95b7"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/cjs/popper-base.js",
+            "size": 36572,
+            "hash": "d21a5851f3c5999c3b163546dc1a4c5caff622fbaca03e5a7be1a536f4524bbc"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/cjs/popper-base.js.flow",
+            "size": 51,
+            "hash": "96582e6ca04b97d35d088d193ae43061be58ee422b3c52d05e93573adae407b1"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/cjs/popper-lite.js",
+            "size": 47019,
+            "hash": "d577b244b9fd1f021d0200c81de59f8b71395bd6e5058143f880171f6abd402f"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/cjs/popper-lite.js.flow",
+            "size": 51,
+            "hash": "f460e893c3abccf3075c0ba6be0623ed60a2c14e7e56563ecc573d2fea5b439f"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/cjs/popper.js",
+            "size": 67380,
+            "hash": "5e41255d201934ca7ea573bd7e3c0ef85d2e9d3b50b702480a461f33b2c71702"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/cjs/popper.js.flow",
+            "size": 46,
+            "hash": "6ffd80d28bbfc17fbe79229ba77b723ff307925b71feb461c71bf8d76057f567"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/createPopper.js",
+            "size": 10007,
+            "hash": "288c9eb0c834a353969c5a0ec297d37a27cdf97c482ec3ad74da3cc190b803a9"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/dom-utils"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/enums.js",
+            "size": 1335,
+            "hash": "086a7301f1cf3f83306c96149b0567f98a348dd258a693ba83c70786755df84c"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/index.js",
+            "size": 443,
+            "hash": "52a90015bcd96704d5194dc4b369c05ed1f4fa3b68f1280726629d29a8f06851"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/modifiers"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/popper-base.js",
+            "size": 193,
+            "hash": "9def49a134279771fceeb08a1b3e45d686d9e6d3ed3778036cc66e847f46f87f"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/popper-lite.js",
+            "size": 603,
+            "hash": "74b3f8baa7b206ec62875e5a4a3fdee7cc862e20ed41264238c5180d7e66d765"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/popper.js",
+            "size": 1090,
+            "hash": "24263c9d2dad6c3aaf208b58ac10994dbb3a83bb0e2e81297a17d0015ed7f6fc"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/types.js",
+            "size": 0,
+            "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+            "type": "folder",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/utils"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/umd/enums.min.js",
+            "size": 1108,
+            "hash": "75072e45fda3d0aba7a332234dea63ff447cb0b73c2a247d367a8bf40bad143c"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/umd/enums.min.js.flow",
+            "size": 45,
+            "hash": "da610523c8d9b8fdd4fab2d323704ea426710355fd393da0a601952b8bcf95b7"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/umd/popper-base.min.js",
+            "size": 9417,
+            "hash": "ef3f95169f7d828e7fa021bc8b84a95582555c4226ec88f1e4089339b7940968"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/umd/popper-base.min.js.flow",
+            "size": 51,
+            "hash": "96582e6ca04b97d35d088d193ae43061be58ee422b3c52d05e93573adae407b1"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/umd/popper-lite.min.js",
+            "size": 13187,
+            "hash": "e8a508ec9bfd1f49eb58b78822be5f1726a7947ecda21709bb839db73d2248f9"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/umd/popper-lite.min.js.flow",
+            "size": 51,
+            "hash": "f460e893c3abccf3075c0ba6be0623ed60a2c14e7e56563ecc573d2fea5b439f"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/umd/popper.min.js",
+            "size": 19735,
+            "hash": "97fd69305ffe2784d385f800452e8ac16ae4fde830b95be14737cb00c43a0ece"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/umd/popper.min.js.flow",
+            "size": 46,
+            "hash": "6ffd80d28bbfc17fbe79229ba77b723ff307925b71feb461c71bf8d76057f567"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/ar-DZ.js",
+            "size": 972,
+            "hash": "38130b0af2b29ef7b60c717e5bd077a5c8688fe9babacf9b0e3c6b7208a13ff7"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/ar-tn.js",
+            "size": 883,
+            "hash": "1d9c6f8e3d1debeb85376e556caee891f51f0b37dcdfe54323213a3c22b65e80"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/ar.js",
+            "size": 905,
+            "hash": "420c68a09d585e1bc859e37edcd3073fae8a0e05ec6603a553b765435e315c9b"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/az.js",
+            "size": 644,
+            "hash": "bd16ac6fff1895df9b901f979e031fe49bbceaad031ac4902a501d82236f368c"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/bg.js",
+            "size": 806,
+            "hash": "26765cd17bed56f8d93efcea52b32cdb38cd9bf68d4d1924a4ceaf508b9e04f9"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/bm.js",
+            "size": 728,
+            "hash": "d6b0768639e157420217ba07838667b8ad01c7d2cc5d29cc6e0958844b1d8415"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/bn.js",
+            "size": 1413,
+            "hash": "9a8d755cc7dfc8df868e7948ee5f31297cf7153de666f84ff0651176989ea510"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/br.js",
+            "size": 707,
+            "hash": "63ed3ec318dc52dfd4f74c09a16877fdd50ec6a760994ae6ae52003193dd4eca"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/bs.js",
+            "size": 622,
+            "hash": "917211e24bea926aa0b1a5af353db0e9e8b1776acf2b9ac1ba1a275e81d93da2"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/ca.js",
+            "size": 721,
+            "hash": "d5040d880e1a965bb12caf19091163541c92bef400ce73cab8ef8f3388ecf249"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/cs.js",
+            "size": 783,
+            "hash": "9340a0cfc7ebbcb1c6d57ad867f0ecbba8708ef8a903c798b04d11719e5b6eed"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/cy.js",
+            "size": 604,
+            "hash": "2b6c112ca0be1eb1c4e8fe7987d7e08022173349c59ac6038c2b2934d924d20f"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/da.js",
+            "size": 775,
+            "hash": "4364bc220d4e2ba51b33218c3825d9d7345cf2d9a22baeb586fe4a72c0eded22"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/de.js",
+            "size": 701,
+            "hash": "841b3980a71ad33d56d8bd13e0e7eea0e5e3389413575ade92cc18f6f59487a4"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/el.js",
+            "size": 916,
+            "hash": "21104b649ef28128334f0c82ae5d87db2829ba3d41cdf02ba84553c035bb6490"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/en-AU.js",
+            "size": 734,
+            "hash": "5d9d9c8a6063a09cc75247e553a2fb4bbb9c93a8c5908ae71dc03eedeb2583c2"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/en-CA.js",
+            "size": 720,
+            "hash": "56166435484546824c659a1f6886445fbb4a2d785b197e16d17db2766e3be728"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/en-GB.js",
+            "size": 727,
+            "hash": "187e04bd41798a3ed02e5914850037c05feff462c227aca25b1125c5e285243a"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/en-IE.js",
+            "size": 684,
+            "hash": "9944d144c60abbb52cd2b65905c40c060a277670d48e284a041f5f010fdba602"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/en-NZ.js",
+            "size": 689,
+            "hash": "793588f9fd1264af41b49f1967573d19e7f288f87fd336a744ac42a9ced00029"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/en-ZA.js",
+            "size": 691,
+            "hash": "d669033ee06a423592f30e987a6fa417852cacdef27687c88d56048005329a68"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/eo.js",
+            "size": 721,
+            "hash": "aa0edd001c0c16774c9e4a2d1325be515ef002a24e852e2182597fce420a139a"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/es.js",
+            "size": 716,
+            "hash": "71875415c3551bd911ce13eca55aa5d4025fc457d37ad363ed4d208f9da15ede"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/et.js",
+            "size": 794,
+            "hash": "05c695dbb7e495d1af61e506062279726497942cdcab6a21b656e4c5329c58ea"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/eu.js",
+            "size": 729,
+            "hash": "17bd57b8f684ec998e421d021eafbec42e297b5d95513fd88e4641ccb72b020e"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/fa.js",
+            "size": 874,
+            "hash": "6fba25a8daef6f2abaec6ab2074daac3eba1c0ee4f9b4147beee49229ebbf93b"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/fi.js",
+            "size": 754,
+            "hash": "35bcfe5940005bc35d6f78b7ea18a35747983ac971885b658499eb7f32660df0"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/fo.js",
+            "size": 692,
+            "hash": "a2502fc9ab89060430baef638f59c243dd51ba82a0a3de651ddd54875dea5d45"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/fr-CH.js",
+            "size": 828,
+            "hash": "f6897977208b2a617a7914c38fb260cfd2f41597c3acf34ee62fcc6b9afe1c32"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/fr.js",
+            "size": 734,
+            "hash": "a90d7376bf58c568c5e1da8563e94cc2d6f0a6c61975678e5d2d1e2b687cebfe"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/gl.js",
+            "size": 619,
+            "hash": "15fe426a436f0a263d07290e065df336dddf20f156961f140ca6a7a884b1ce3f"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/he.js",
+            "size": 741,
+            "hash": "99096eb2fed41aefb4399efd215384c60545f619569af281258b8c2c164a18cc"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/hi.js",
+            "size": 1141,
+            "hash": "93da65acb23f41f1adf94255dab400a8042a66c1465399a217d4e5ef0d5a1f7d"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/hr.js",
+            "size": 575,
+            "hash": "4d605d35789126a427f963effb66e020627b8b7de05530ca4f6a92b1b9e45137"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/hu.js",
+            "size": 738,
+            "hash": "4f2e192bfac77af8c775195ad4762f308cf64242f818acaeabc7d2097414ea86"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/hy.js",
+            "size": 954,
+            "hash": "310dd279c3484676091c116bbd81cb18b7c55106e89abd918aa507c1b0f22a18"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/id.js",
+            "size": 733,
+            "hash": "2c94eedba412ce7c4721a0f053c0d4f27f870b86ab1dbc79e55a6b825d54b44f"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/is.js",
+            "size": 684,
+            "hash": "91870704d43a56e33e6f1918550d46b8bb6a0b74fbcb77eba7190acaddb3a7e5"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/it-CH.js",
+            "size": 817,
+            "hash": "331b1eb5936724ce276c73b16ad5fa16163ba47b43df27b58b2e171219e39a74"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/it.js",
+            "size": 723,
+            "hash": "c7707b70a56e265428c56b527aba6a828959038e82904bd4f7141fa0810f9b4f"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/ja.js",
+            "size": 700,
+            "hash": "2f155da0fe8edb29d7bfa615c102300e2f1c08f839154fb11204fc0f8941f380"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/ka.js",
+            "size": 1170,
+            "hash": "083b202e255ab30d485ced5671d45ad8f7b3e85818b8f93e740a7631d548759d"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/kk.js",
+            "size": 833,
+            "hash": "71fee3daba07d6470e1d164d3501a8a68869f34cf86c71b5e95d2bfc0b2b3d3a"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/km.js",
+            "size": 1257,
+            "hash": "bb88ba17f9bc9ad6c1a913d75aeb163392d034597ad04e49c314f6f2ccb067e5"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/ko.js",
+            "size": 775,
+            "hash": "b9bee3b884589ac9a7d5d3a56fd3974bc110a3f9c1d410a30b1e17d283a22e26"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/lt.js",
+            "size": 774,
+            "hash": "7977959dc755b5fd435d09a31dc4cf088e5120b30ef0cade2921b74bdd274c4f"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/lv.js",
+            "size": 714,
+            "hash": "3480956b6b0af57f7586f63e82fac4f6e6a4b83cbc1e79216107cdee931975c9"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/me.js",
+            "size": 691,
+            "hash": "ed0777e9a1c53f5642a35137aa7966198229bfe10186e78cb8825183f0cf807f"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/mk.js",
+            "size": 840,
+            "hash": "48ae2060251e971113a2ff1a314e4b741636667ca7d13c24c070ef682141fc9d"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/mn.js",
+            "size": 841,
+            "hash": "ad16c650a3ff666cc2123211a91c7c387d1dfddf4c58da0830564dd90877713a"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/mr.js",
+            "size": 1193,
+            "hash": "9d58884a0ed3de0831bd3ee7c3784503910c4bf1c0f9853364d37619b4b3f1a9"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/ms.js",
+            "size": 626,
+            "hash": "3fac56a8eb3c2a08089f8994f4ba2947bc7d166f677527610120c2bc849e7ca7"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/nl-BE.js",
+            "size": 733,
+            "hash": "8b72da8d116cc06d24b6e1b6688179be47e1898019dd1b6ec2b18bd04d6f668b"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/nl.js",
+            "size": 716,
+            "hash": "fe25070803d3a6d88952f17c7af673870b32d50143bd099e7dab14e44048f8f7"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/no.js",
+            "size": 720,
+            "hash": "e3dae29cdb8d5fd0717ec6a839a0191daa2e8b123a1fc78e3c8eee5ecaae6db1"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/oc.js",
+            "size": 676,
+            "hash": "47643a4cc4434b22a55391f4e40dc973c1c483d444a7fc56bf21ebe2d7f54a40"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/pl.js",
+            "size": 732,
+            "hash": "5cc6fa36cf418fbcebca79d9ea7ff71f559f193a748beec87cf101108ea6700c"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/pt-BR.js",
+            "size": 697,
+            "hash": "a5abeb07cc71e8db72a01259e39d02b374d214df5677daac1d9e2ea70eab50d4"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/pt.js",
+            "size": 749,
+            "hash": "87896a3a863e492f05404081a4522ca8c203535a6af84ad6c8c0c5f45b25a5b4"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/ro.js",
+            "size": 702,
+            "hash": "9c98b085fb36c73de1e7bf9f29fb296b2f48296bf2b2be44ce1bf4bb2f87274f"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/ru.js",
+            "size": 933,
+            "hash": "4b01d98741fe530817b464ff910afcefce914efa2f253307bc7efffcb16bcd77"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/si.js",
+            "size": 1199,
+            "hash": "95eb7080a2710a5a6a043e602056cf29458fcb1ed03f7ab2cc864ace18ef6f86"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/sk.js",
+            "size": 736,
+            "hash": "9766e1e7fb40364484a25a7af9d9955400506083e9a345e545720ca4babaf7ed"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/sl.js",
+            "size": 640,
+            "hash": "6edeff650e3b23cf8b77be5bc3fa509bcbea6694d1065049e4eaa1b0b5af10b0"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/sq.js",
+            "size": 729,
+            "hash": "d620b93430fb394445e8468c0850e8bcf3c79cb5aff3d39312c9740e6f2b418e"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/sr-latn.js",
+            "size": 672,
+            "hash": "4d291a81e9fa74df2771b86e55e84f80cfdf47a7e1dedf75732e4978ea66b76c"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/sr.js",
+            "size": 849,
+            "hash": "cf090ce18e359d053117ffc64236d1014578ac5a00f0797467b0509e98d8f037"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/sv.js",
+            "size": 689,
+            "hash": "a399817ce1ad25edaef5d84a483e974b0fabb64ab1b7199d68cd521f3a06e78a"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/sw.js",
+            "size": 712,
+            "hash": "5607d153655c1bf4bbbd68265825196800c4bb1275ba5300d81c4dc8d2f3bcfc"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/ta.js",
+            "size": 1139,
+            "hash": "157e6e0b476fdfff69ff5065959b61e83dcb4072d13deaf18e2b51ade2acf95b"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/tg.js",
+            "size": 949,
+            "hash": "186bb1f713fab8d8231578d1d3b472e9affdcf4feddc1be343bd6e87ce193cf5"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/th.js",
+            "size": 1010,
+            "hash": "172b62d08d7f41ae8bcd4bc5796d8808288c50abc72d89fbff9f52535855bc2c"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/tk.js",
+            "size": 740,
+            "hash": "6f4146424fedef4a658f911f8dfbfd1884facadeae7c500b1e69c50804241ef9"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/tr.js",
+            "size": 693,
+            "hash": "7cb120dfc7e3010093c40cecd316b33b1f9550a84ec6bb699dc8dd4f79a8ed80"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/uk.js",
+            "size": 895,
+            "hash": "e33057adda6fd6100823f186d66c0dbc17774df08871f3607956882c98bbbe92"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/uz-cyrl.js",
+            "size": 895,
+            "hash": "c56f3233f7012a396922c45168d12fd9693043dc74fd7833870ac50ff6d7427f"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/uz-latn.js",
+            "size": 727,
+            "hash": "029b0326446fb3270f7babb3571b57c24a9b4405b83b781b0615b8ee8335ba3a"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/vi.js",
+            "size": 740,
+            "hash": "4574782012ada44c9d40f09bda99986d13c5f4411ca8498c9a1c2cfcd4a15454"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/zh-CN.js",
+            "size": 824,
+            "hash": "9810ba86fae2e43d89ab40dcd4a1f652e93caca0ce229ba46059c3d996ac00bc"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/vanillajs-datepicker/dist/js/locales/zh-TW.js",
+            "size": 913,
+            "hash": "2aaa53b1926e7b165ca4aaa10399dfcd963fdd689ab43b64d828b8369537de39"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/dom-utils/contains.js",
+            "size": 677,
+            "hash": "44782eef6a54b0ec8b9f7fbef5858152812a408a6b576521a9db82394e2ea04b"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/dom-utils/getBoundingClientRect.js",
+            "size": 1006,
+            "hash": "f562c58508cf953348e1e35c92d7d5b332ce0797496db4fc9dd0819bfb4e44f7"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/dom-utils/getClippingRect.js",
+            "size": 3301,
+            "hash": "63ccc3f90a83e33c9e8313cf9b44d37444e3205bb15547e04989dbce6a2caf86"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/dom-utils/getCompositeRect.js",
+            "size": 2063,
+            "hash": "3c5a665f262aabb5dce204fedba4f050f6405787b4f31dc1745cb6c85b6a5911"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/dom-utils/getComputedStyle.js",
+            "size": 148,
+            "hash": "e5eea602da99a00d0ca4ae8d5948a3ff24a9f737a3d0179cebb5845dad2c17b7"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/dom-utils/getDocumentElement.js",
+            "size": 311,
+            "hash": "90b1d04869a3ab9b9f97c4187a75789ac64d9e197536c835897c2daa342ef11f"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/dom-utils/getDocumentRect.js",
+            "size": 1227,
+            "hash": "0f1019d09ca7b81a9603f17d1e04aadfd406dead7c8312c172f75b94efb8e6b3"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/dom-utils/getHTMLElementScroll.js",
+            "size": 142,
+            "hash": "6f4dc8c434a0a505a9f31f348bea11917b819704d199c47c75695827c13c896e"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/dom-utils/getLayoutRect.js",
+            "size": 767,
+            "hash": "32fbfa6791e4abf23d3c7d0598f6ab5a71b36ea80094e25f2d4fff15f4831e44"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/dom-utils/getNodeName.js",
+            "size": 114,
+            "hash": "5dd3625ea7fc6c00559d575988c0f8d8d3a78ddb36c7544929181ea037a3748a"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/dom-utils/getNodeScroll.js",
+            "size": 396,
+            "hash": "b555e6fec6fba79f6769356873591964f6ce766f9733072964a3775eb251d7fe"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/dom-utils/getOffsetParent.js",
+            "size": 2518,
+            "hash": "bd76a7cc6830caba7c6bfc077188d07e5696df64c9c70925e44240ee300d660c"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/dom-utils/getParentNode.js",
+            "size": 759,
+            "hash": "58b66021c6fc2777c3f70096fc774ced21325331591dcb0619f4972fb2dccdf8"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/dom-utils/getScrollParent.js",
+            "size": 546,
+            "hash": "b72c8afb2d2b4f61c83c5414674b7a4fdade95d5e158f21519f32a60a0fb937e"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/dom-utils/getViewportRect.js",
+            "size": 1593,
+            "hash": "88be76f71fdeee707fa903d46cd00a684af32ee4ada8d6d6509f5845f147ebdf"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/dom-utils/getWindow.js",
+            "size": 273,
+            "hash": "3e76e1dc883b283100a6e8b9dad16b529006e509423f250126352c7cbc381bd6"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/dom-utils/getWindowScroll.js",
+            "size": 258,
+            "hash": "f69800ff6922ba9a967d7247e587f0ec9048ef5674523e17a428df43419f1f0f"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/dom-utils/getWindowScrollBarX.js",
+            "size": 721,
+            "hash": "d1c58ddf75df61254077ee3a66564b8e9070c26b5f69a2eb6ff65ea7fb536827"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/dom-utils/instanceOf.js",
+            "size": 621,
+            "hash": "d16d28b0de3d7151e0356429832d668efc515849f256bf3c41ed20baf1dadb77"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/dom-utils/isScrollParent.js",
+            "size": 440,
+            "hash": "9cd30c21e4430f16e3dabc83c7d45af54a238cabbdf2201a1233bf04424ec169"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/dom-utils/isTableElement.js",
+            "size": 162,
+            "hash": "254d16e0c2ca9216ba271f2bb67681e023e6a83fe37905c103db2cf03f0d23b9"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/dom-utils/listScrollParents.js",
+            "size": 1177,
+            "hash": "129a81b6681a9663513fafdc77e660d1bf4e303858b930642105b041c42ca063"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/modifiers/applyStyles.js",
+            "size": 2527,
+            "hash": "99a3070b335a00b5918a189aed054a406a55a7ac6478ead3cdda568b5f4e9bbc"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/modifiers/arrow.js",
+            "size": 3878,
+            "hash": "88d6cf0648d3901c14283ea1eb3bb278b5453da8c086f16bc5686af248280638"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/modifiers/computeStyles.js",
+            "size": 6518,
+            "hash": "c86f74bb2cf2a0eaf5a76a63c9ff5057379b35d85eacbdd13deb92ddc3933909"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/modifiers/eventListeners.js",
+            "size": 1330,
+            "hash": "6d10614b494320d1dd278b26c1707aa1f8191ef39875984cf1d51bac7cbfd9e9"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/modifiers/flip.js",
+            "size": 4910,
+            "hash": "bbc932e69fec06f8f91d53e6bb32925df65a5816d4a2406cf97ed4545efd0cb6"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/modifiers/hide.js",
+            "size": 1954,
+            "hash": "259ad59cefcfd33be71822653c7135440c8f0084bdc889e3671d4668a1ec2be8"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/modifiers/index.js",
+            "size": 502,
+            "hash": "5c973d45e87f6d9916e7397f26a624062aef81d38d2813dba809418238fcf684"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/modifiers/offset.js",
+            "size": 1613,
+            "hash": "6e99824040b6fe242f7c0dc892b880da15c1b62332805e1d590ee809d70090a9"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/modifiers/popperOffsets.js",
+            "size": 706,
+            "hash": "6bb3b09cc35762c59092c17e2b4d7fc8d1ebdab5dff23e298f2fd5f607c5ad7f"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/modifiers/preventOverflow.js",
+            "size": 6585,
+            "hash": "0070d3663d0dfb74239970302a2833ef7fc952341dfc438c7d208b0f0626924d"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/utils/computeAutoPlacement.js",
+            "size": 1991,
+            "hash": "c00eca30e445b7338fd37cbdc7231028c73f6ee31b1328b23ed280f509494b3e"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/utils/computeOffsets.js",
+            "size": 1738,
+            "hash": "384b1106a643ea4b6eb6e93c4c2620847e6be982ba2879dfb743a97b42c494a1"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/utils/debounce.js",
+            "size": 302,
+            "hash": "30bce1b3ef4b3153a3c455bf48d8d17c8f7a6b062298b300520573b5d4ce88b7"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/utils/detectOverflow.js",
+            "size": 3389,
+            "hash": "52a8a1ee6c53678560485eb8dc6635119baa8730d2655c79abda5d81cd90c2a0"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/utils/expandToHashMap.js",
+            "size": 159,
+            "hash": "6311bd085b19434d282ead35f0b055e53b05f43d6087db6b9181209b821b14ec"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/utils/format.js",
+            "size": 286,
+            "hash": "9795bae1ac6dcaf5ad173a3c46745a96698c6112b1f3f44bef452c60918d5fbe"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/utils/getAltAxis.js",
+            "size": 79,
+            "hash": "90441cdf16c770891f40c523c18faa65d53afdafcf43216cb60b2835f8aca917"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/utils/getAltLen.js",
+            "size": 89,
+            "hash": "3e8a6a6d16ffd3df4fa2b449086cad6cbc9a0ef6a39b09c0a7b660454c594d0f"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/utils/getBasePlacement.js",
+            "size": 125,
+            "hash": "03d59389aec95bdcef34ae6535cf301c1c6bcc5f5d3bc38a07225058b6e9f256"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/utils/getFreshSideObject.js",
+            "size": 117,
+            "hash": "75b4105c96ec450a48aabdb2c3312fef9409bff8b48f8db5472e9c6eb3d67c73"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/utils/getMainAxisFromPlacement.js",
+            "size": 127,
+            "hash": "05e4fb4f299eb28636e7a0543998ae2e1e2665ba508cf157baec90212ba85243"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/utils/getOppositePlacement.js",
+            "size": 248,
+            "hash": "da8c5eca0bfb47dc264b210bf898ff8fef6978a50f2156c07953f0f60b06ac84"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/utils/getOppositeVariationPlacement.js",
+            "size": 209,
+            "hash": "cfe050ffd9cd04791b30010c65ce97db022678ca8446a2c000c72e4af1b96cd0"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/utils/getVariation.js",
+            "size": 85,
+            "hash": "9f7e8d8220b3f7e7324ef196b9e7beab6f11999ebaf06ea50da2cf1647b72613"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/utils/math.js",
+            "size": 84,
+            "hash": "74f8519105dcd69d00523539a50b342932b63de0b4f86f7d36fe11043dde541f"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/utils/mergeByName.js",
+            "size": 524,
+            "hash": "c5c562283381de46b56107ed19e2a344c57a0c3ac115afc9d375aa1dcfa9be1c"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/utils/mergePaddingObject.js",
+            "size": 184,
+            "hash": "ee4d20b372d6fa2f59bd3db3be03cca8334e1c62e48aec0b62a9b3e89fea3167"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/utils/orderModifiers.js",
+            "size": 1240,
+            "hash": "90184ede782ffb1021583397e16507f73960cd93d2bde80b7b42d111f616b84f"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/utils/rectToClientRect.js",
+            "size": 191,
+            "hash": "4ca3a45346846f7ae258725985596972dff818b6eeb406f1c8851f17783d9a08"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/utils/uniqueBy.js",
+            "size": 252,
+            "hash": "2388ca24ba1ed2c8f0028d5c72acdf25652740bc590fdf2deeb8ff64395334e2"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/utils/validateModifiers.js",
+            "size": 3261,
+            "hash": "33bae6fd651417a78b21b9e316fb639638997a36c6e54e5b064056f6d5d396f3"
+        },
+        {
+            "type": "file",
+            "name": "html&css/vendor/@popperjs/core/dist/esm/utils/within.js",
+            "size": 262,
+            "hash": "71973a211d1a9bd3500977e90dbf34f00620638183db307e8107c3265cd9da06"
         }
     ]
 }
