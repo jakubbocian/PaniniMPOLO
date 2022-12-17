@@ -66,7 +66,6 @@ function callFeedbackGET(urlToCall){
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
-            document.getElementsByTagName(divName).innerHTML += this.response;
             const res = JSON.parse(this.response);
             //visualizza il popup specificato da popUpName con un titolo e una descrizione passati al metodo a partire dal json
             popup(res.popUpName, res.title, res.caption);
@@ -80,7 +79,6 @@ function callFeedbackPOST(urlToCall, dataToSend){
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
-            document.getElementsByTagName(divName).innerHTML += this.response;
             const res = JSON.parse(this.response);
             //visualizza il popup specificato da popUpName con un titolo e una descrizione passati al metodo a partire dal json
             popup(res.popUpName, res.title, res.caption);
