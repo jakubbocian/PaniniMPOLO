@@ -30,17 +30,15 @@ if (checkEmail($email)){
     $sql = "SELECT * FROM utente WHERE email = '$email'";
     $result = $conn->query($sql);
     if ($result->num_rows > 0) {
-        echo "Email già presente nel database";
+        echo json_encode(array('popUpName' => 'popWarning', 'title' => "Attenzione", 'caption' => 'Email già presente nel database'));
     } else {
-        echo "Email non presente" . "<br>";
         $sql = "INSERT INTO `utente` (`email`) VALUES ('$email')";
         $result = $conn->query($sql);
-        echo "Email inserita nel database";
+        echo json_encode(array('popUpName' => 'popSuccess', 'title' => "Ok", 'caption' => "Entro pochi minuti riceverai una mail di conferma all'indirizzo specificato. Controlla anche la cartella di spam"));
     }
 } else {
-    echo "Email non presente nel dominio";
+    echo json_encode(array('popUpName' => 'popDanger', 'title' => "Errore", 'caption' => "L'Email inserita non è corretta"));
 }
-
 
 CloseCon($conn);
 ?>
