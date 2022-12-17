@@ -63,6 +63,13 @@ function callView(divId, urlToCall){
 
 //funzione per effettuare operazioni GET sul back-end e restituire un feedback all'utente
 function callFeedbackGET(urlToCall){
+    urlToCall += '?';
+    for(i=1; i<arguments.length; i++){
+        var name = document.getElementById(arguments[i]).name;
+        var value = document.getElementById(arguments[i]).value;
+        urlToCall += name + '=' + value +'&';
+    }   
+
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
