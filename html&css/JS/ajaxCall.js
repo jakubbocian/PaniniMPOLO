@@ -69,7 +69,7 @@ function callFeedbackGET(formName, urlToCall){
     if(document.forms[formName].checkValidity()){
         //formattazione dei parametri della URL
         urlToCall += '?';
-        for(i=1; i<arguments.length; i++){
+        for(i=2; i<arguments.length; i++){
             var name = document.getElementById(arguments[i]).name;
             var value = document.getElementById(arguments[i]).value;
             urlToCall += name + '=' + value +'&';
@@ -105,16 +105,20 @@ function callFeedbackPOST(urlToCall, dataToSend){
 }
 
 //funzione per effettuare operazioni POST sul back-end che necessitano una conferma da parte dell'utente
-function callConfirm(popConfirmTitle, popConfirmCaption, urlToCall){
+function callConfirm(formName, popConfirmTitle, popConfirmCaption, urlToCall){
     //formatta i dati di un form o di campi hidden come il seguente  <input type="hidden" id="custId" name="custId" value="3487">, 
     // N.B. come parametro passare solo il valore di NAME del campo da inviare
-    var data = new FormData();
-    for(i=3; i<arguments.length; i++){
-        var name = document.getElementById(arguments[i]).name;
-        var value = document.getElementById(arguments[i]).value;
-        data.append(name, value);
-    }   
-    //chiamata POST con feedback
-    document.getElementById("confirmOk").onclick = callFeedbackPOST(urlToCall, data);
-    popup("popConfirm", popConfirmTitle, popConfirmCaption);
+    if(document.forms[formName].checkValidity()){
+        var data = new FormData();
+        for(i=4; i<arguments.length; i++){
+            var name = document.getElementById(arguments[i]).name;
+            var value = document.getElementById(arguments[i]).value;
+            data.append(name, value);
+        }   
+        //chiamata POST con feedback
+        document.getElementById("confirmOk").onclick = callFeedbackPOST(urlToCall, data);
+        popup("popConfirm", popConfirmTitle, popConfirmCaption);
+    }
+    else
+        return false;
 }
