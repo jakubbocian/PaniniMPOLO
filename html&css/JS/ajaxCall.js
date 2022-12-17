@@ -49,12 +49,15 @@ function popup(popUpName, title, caption){
     document.getElementById(popUpName + "Caption").innerHTML = caption;
 }
 
-//funzione per inserire all'interno di un div una porzione di codice HTML
-function callView(divId, urlToCall){
+//funzione per inserire all'interno di un div una porzione di codice HTML. Il campo addOrReplace serve per decidere se il div va rimpiazzato in toto oppure va agggiunto
+function callView(divId, urlToCall, addOrReplace){
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
-            document.getElementsByTagName(divId).innerHTML += this.response;
+            if(addOrReplace == 'add')
+                document.getElementsByTagName(divId).innerHTML += this.response;
+            else
+                document.getElementsByTagName(divId).innerHTML = this.response;
        }
     };
     xmlhttp.open("GET", urlToCall , true);
