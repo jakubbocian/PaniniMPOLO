@@ -39,7 +39,7 @@ if (checkEmail($email)){
     }
     CloseCon($conn);
 } else {
-    echo json_encode(array('popUpName' => 'popDanger', 'title' => "Errore", 'caption' => "L'Email inserita non è corretta"));
+    echo json_encode(array('popUpName' => 'popDanger', 'title' => "Errore", 'caption' => "L'Email inserita non è corretta o non è presente nei nostri sistemi"));
 }
 
 ?>
