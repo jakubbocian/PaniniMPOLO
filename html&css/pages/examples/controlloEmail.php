@@ -1,4 +1,8 @@
 <?php
+/*
+    * Restituisce un array con tutti gli alunni
+    * @return array
+*/
 function getAlunni() {
     $dati = array();
     $fp = fopen("db_marcopolo.csv", "r");
