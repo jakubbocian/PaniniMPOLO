@@ -11,7 +11,7 @@ function OpenCon()
     $dbpass = "";
     $db = "my_iismpsnacks";
 
-    $conn = new mysqli($dbhost, $dbuser, $dbpass, $db)
+    $conn = new mysqli($dbhost, $dbuser, $dbpass, $db);
     if($conn->connect_errno){
         echo json_encode(array('popUpName' => 'popDanger', 'title' => "Errore", 'caption' => 'Connessione interrotta, errore nel database!'));
         exit();
