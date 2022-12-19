@@ -41,4 +41,5 @@ if (checkEmail($email)){
 }
 
 CloseCon($conn);
+//commento fake
 ?>
