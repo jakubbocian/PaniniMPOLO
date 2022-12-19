@@ -1,8 +1,4 @@
 <?php
-/*
-    * Restituisce un array con tutti gli alunni
-    * @return array con tutti gli alunni
-*/
 function getAlunni() {
     $dati = array();
     $fp = fopen("db_marcopolo.csv", "r");
@@ -34,5 +30,4 @@ function checkEmail($email) {
     }
     return $risposta;
 }
-//vediamo di caricarlo su github
 ?>
