@@ -66,12 +66,16 @@ function callView(divId, urlToCall, addOrReplace){
 
 //funzione per effettuare operazioni GET sul back-end e restituire un feedback all'utente
 function callFeedbackGET(formName, urlToCall){
-    if(document.forms[formName].checkValidity()){
+    //if(document.forms[formName].checkValidity()){
         var elements = document.forms[formName].elements;
         //formattazione dei parametri della URL
         urlToCall += '?';
         for(i=0; i<elements.length; i++){
             var name = elements[i].getAttribute("name");
+            if(!elements[i].checkValidity()){
+                popup("popWarning", "Attenzione!", "Il campo " + name + " è obbligatorio");
+                return false;
+            }
             var value = elements[i].value;
             urlToCall += name + '=' + value +'&';
         }   
@@ -86,9 +90,9 @@ function callFeedbackGET(formName, urlToCall){
         };
         xmlhttp.open("GET", urlToCall , true);
         xmlhttp.send();
-    }
-    else
-        popup("popWarning", "Attenzione!", "Compila tutti i campi obbligatori");
+    //}
+    //else
+        //popup("popWarning", "Attenzione!", "Compila tutti i campi obbligatori");
 
     return false;
 }
