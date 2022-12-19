@@ -66,28 +66,27 @@ function callView(divId, urlToCall, addOrReplace){
 
 //funzione per effettuare operazioni GET sul back-end e restituire un feedback all'utente
 function callFeedbackGET(formName, urlToCall){
-    var elements = document.forms[formName].elements;
-    //formattazione dei parametri della URL
-    urlToCall += '?';
-    for(i=0; i<elements.length; i++){
-        if(elements[i].checkValidity()){
+    if(document.forms[formName].checkValidity()){
+        var elements = document.forms[formName].elements;
+        //formattazione dei parametri della URL
+        urlToCall += '?';
+        for(i=0; i<elements.length; i++){
             var name = elements[i].getAttribute("name");
             var value = elements[i].value;
             urlToCall += name + '=' + value +'&';
+        }   
+        //invio della richiesta
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                const res = JSON.parse(this.response);
+                //visualizza il popup specificato da popUpName con un titolo e una descrizione passati al metodo a partire dal json
+                popup(res.popUpName, res.title, res.caption);
         }
-        else return
-    }   
-    //invio della richiesta
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function () {
-        if (this.readyState == 4 && this.status == 200) {
-            const res = JSON.parse(this.response);
-            //visualizza il popup specificato da popUpName con un titolo e una descrizione passati al metodo a partire dal json
-            popup(res.popUpName, res.title, res.caption);
+        };
+        xmlhttp.open("GET", urlToCall , true);
+        xmlhttp.send();
     }
-    };
-    xmlhttp.open("GET", urlToCall , true);
-    xmlhttp.send();
 }
 
 function callFeedbackPOST(urlToCall, dataToSend){
@@ -109,7 +108,7 @@ function callFeedbackPOST(urlToCall, dataToSend){
 function callConfirm(formName, popConfirmTitle, popConfirmCaption, urlToCall){
     //formatta i dati di un form o di campi hidden come il seguente  <input type="hidden" id="custId" name="custId" value="3487">, 
     // N.B. come parametro passare solo il valore di NAME del campo da inviare
-    //if(document.forms[formName].checkValidity()){
+    if(document.forms[formName].checkValidity()){
         var data = new FormData();
         for(i=4; i<arguments.length; i++){
             var name = document.getElementById(arguments[i]).name;
@@ -119,5 +118,5 @@ function callConfirm(formName, popConfirmTitle, popConfirmCaption, urlToCall){
         //chiamata POST con feedback
         document.getElementById("confirmOk").onclick = callFeedbackPOST(urlToCall, data);
         popup("popConfirm", popConfirmTitle, popConfirmCaption);
-    //}
+    }
 }
