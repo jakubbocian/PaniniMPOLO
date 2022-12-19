@@ -87,6 +87,9 @@ function callFeedbackGET(formName, urlToCall){
         xmlhttp.open("GET", urlToCall , true);
         xmlhttp.send();
     }
+    else
+        popup("popWarning", "Attenzione!", "Compila tutti i campi obbligatori");
+
     return false;
 }
 
@@ -120,5 +123,8 @@ function callConfirm(formName, popConfirmTitle, popConfirmCaption, urlToCall){
         document.getElementById("confirmOk").onclick = callFeedbackPOST(urlToCall, data);
         popup("popConfirm", popConfirmTitle, popConfirmCaption);
     }
+    else
+        popup("popWarning", "Attenzione!", "Compila tutti i campi obbligatori");
+        
     return false;
 }
