@@ -73,7 +73,7 @@ function callFeedbackGET(formName, urlToCall){
         var name = elements[i].getAttribute("name");
         if(!elements[i].checkValidity()){
             popup("popWarning", "Attenzione!", "Il campo " + name + " è obbligatorio");
-            return ;
+            return false;
         }
         var value = elements[i].value;
         urlToCall += name + '=' + value +'&';
