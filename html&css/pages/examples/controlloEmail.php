@@ -34,4 +34,5 @@ function checkEmail($email) {
     }
     return $risposta;
 }
+//vediamo di caricarlo su github
 ?>
