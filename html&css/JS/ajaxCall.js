@@ -67,11 +67,12 @@ function callView(divId, urlToCall, addOrReplace){
 //funzione per effettuare operazioni GET sul back-end e restituire un feedback all'utente
 function callFeedbackGET(formName, urlToCall){
     if(document.forms[formName].checkValidity()){
+        var elements = document.forms[formName].elements;
         //formattazione dei parametri della URL
         urlToCall += '?';
-        for(i=2; i<arguments.length; i++){
-            var name = document.getElementById(arguments[i]).name;
-            var value = document.getElementById(arguments[i]).value;
+        for(i=0; i<elements.length; i++){
+            var name = elements[i].getAttribute("name");
+            var value = elements[i].value;
             urlToCall += name + '=' + value +'&';
         }   
         //invio della richiesta
@@ -87,7 +88,9 @@ function callFeedbackGET(formName, urlToCall){
         xmlhttp.send();
     }
     else
-        return false
+        popup("popWarning", "Attenzione!", "Compila tutti i campi obbligatori");
+
+    return false;
 }
 
 function callFeedbackPOST(urlToCall, dataToSend){
@@ -102,6 +105,7 @@ function callFeedbackPOST(urlToCall, dataToSend){
     xmlhttp.open("POST", urlToCall, true);
     xmlhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
     xmlhttp.send(dataToSend);
+    popup("popConfirm", "", "");
 }
 
 //funzione per effettuare operazioni POST sul back-end che necessitano una conferma da parte dell'utente
@@ -120,5 +124,7 @@ function callConfirm(formName, popConfirmTitle, popConfirmCaption, urlToCall){
         popup("popConfirm", popConfirmTitle, popConfirmCaption);
     }
     else
-        return false;
+        popup("popWarning", "Attenzione!", "Compila tutti i campi obbligatori");
+        
+    return false;
 }
