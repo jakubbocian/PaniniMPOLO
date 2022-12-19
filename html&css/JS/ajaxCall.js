@@ -66,34 +66,29 @@ function callView(divId, urlToCall, addOrReplace){
 
 //funzione per effettuare operazioni GET sul back-end e restituire un feedback all'utente
 function callFeedbackGET(formName, urlToCall){
-    //if(document.forms[formName].checkValidity()){
-        var elements = document.forms[formName].elements;
-        //formattazione dei parametri della URL
-        urlToCall += '?';
-        for(i=0; i<elements.length; i++){
-            var name = elements[i].getAttribute("name");
-            if(!elements[i].checkValidity()){
-                popup("popWarning", "Attenzione!", "Il campo " + name + " è obbligatorio");
-                return false;
-            }
-            var value = elements[i].value;
-            urlToCall += name + '=' + value +'&';
-        }   
-        //invio della richiesta
-        var xmlhttp = new XMLHttpRequest();
-        xmlhttp.onreadystatechange = function () {
-            if (this.readyState == 4 && this.status == 200) {
-                const res = JSON.parse(this.response);
-                //visualizza il popup specificato da popUpName con un titolo e una descrizione passati al metodo a partire dal json
-                popup(res.popUpName, res.title, res.caption);
+    var elements = document.forms[formName].elements;
+    //formattazione dei parametri della URL
+    urlToCall += '?';
+    for(i=0; i<elements.length; i++){
+        var name = elements[i].getAttribute("name");
+        if(!elements[i].checkValidity()){
+            popup("popWarning", "Attenzione!", "Il campo " + name + " è obbligatorio");
+            return false;
         }
-        };
-        xmlhttp.open("GET", urlToCall , true);
-        xmlhttp.send();
-    //}
-    //else
-        //popup("popWarning", "Attenzione!", "Compila tutti i campi obbligatori");
-
+        var value = elements[i].value;
+        urlToCall += name + '=' + value +'&';
+    }   
+    //invio della richiesta
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            const res = JSON.parse(this.response);
+            //visualizza il popup specificato da popUpName con un titolo e una descrizione passati al metodo a partire dal json
+            popup(res.popUpName, res.title, res.caption);
+    }
+    };
+    xmlhttp.open("GET", urlToCall , true);
+    xmlhttp.send();
     return false;
 }
 
@@ -116,19 +111,19 @@ function callFeedbackPOST(urlToCall, dataToSend){
 function callConfirm(formName, popConfirmTitle, popConfirmCaption, urlToCall){
     //formatta i dati di un form o di campi hidden come il seguente  <input type="hidden" id="custId" name="custId" value="3487">, 
     // N.B. come parametro passare solo il valore di NAME del campo da inviare
-    if(document.forms[formName].checkValidity()){
-        var data = new FormData();
-        for(i=4; i<arguments.length; i++){
-            var name = document.getElementById(arguments[i]).name;
-            var value = document.getElementById(arguments[i]).value;
-            data.append(name, value);
-        }   
-        //chiamata POST con feedback
-        document.getElementById("confirmOk").onclick = callFeedbackPOST(urlToCall, data);
-        popup("popConfirm", popConfirmTitle, popConfirmCaption);
-    }
-    else
-        popup("popWarning", "Attenzione!", "Compila tutti i campi obbligatori");
-        
+    var elements = document.forms[formName].elements;
+    var data = new FormData();
+    for(i=0; i<elements.length; i++){
+        var name = elements[i].getAttribute("name");
+        if(!elements[i].checkValidity()){
+            popup("popWarning", "Attenzione!", "Il campo " + name + " è obbligatorio");
+            return false;
+        }
+        var value = elements[i].value;
+        data.append(name, value);
+    }   
+    //chiamata POST con feedback
+    document.getElementById("confirmOk").onclick = callFeedbackPOST(urlToCall, data);
+    popup("popConfirm", popConfirmTitle, popConfirmCaption);
     return false;
 }
