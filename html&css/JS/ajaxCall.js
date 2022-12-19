@@ -87,8 +87,6 @@ function callFeedbackGET(formName, urlToCall){
         xmlhttp.open("GET", urlToCall , true);
         xmlhttp.send();
     }
-    else
-        return false
 }
 
 function callFeedbackPOST(urlToCall, dataToSend){
@@ -121,6 +119,4 @@ function callConfirm(formName, popConfirmTitle, popConfirmCaption, urlToCall){
         document.getElementById("confirmOk").onclick = callFeedbackPOST(urlToCall, data);
         popup("popConfirm", popConfirmTitle, popConfirmCaption);
     }
-    else
-        return false;
 }
