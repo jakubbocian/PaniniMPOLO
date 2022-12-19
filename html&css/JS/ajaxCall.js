@@ -86,7 +86,9 @@ function callFeedbackGET(formName, urlToCall){
         };
         xmlhttp.open("GET", urlToCall , true);
         xmlhttp.send();
+        return false;
     }
+    return false;
 }
 
 function callFeedbackPOST(urlToCall, dataToSend){
@@ -102,6 +104,7 @@ function callFeedbackPOST(urlToCall, dataToSend){
     xmlhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
     xmlhttp.send(dataToSend);
     popup("popConfirm", "", "");
+    return false;
 }
 
 //funzione per effettuare operazioni POST sul back-end che necessitano una conferma da parte dell'utente
@@ -118,5 +121,7 @@ function callConfirm(formName, popConfirmTitle, popConfirmCaption, urlToCall){
         //chiamata POST con feedback
         document.getElementById("confirmOk").onclick = callFeedbackPOST(urlToCall, data);
         popup("popConfirm", popConfirmTitle, popConfirmCaption);
+        return false;
     }
+    return false;
 }
