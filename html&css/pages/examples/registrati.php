@@ -35,7 +35,7 @@ if (checkEmail($email)){
     } else {
         $sql = "INSERT INTO `utente` (`email`) VALUES ('" . $email . "')";
         $result = $conn->query($sql);
-        echo json_encode(array('popUpName' => 'popSuccess', 'title' => "Ok", 'caption' => "Entro pochi minuti riceverai una mail di conferma all'indirizzo specificato. Controlla anche la cartella di spam"));
+        echo json_encode(array('popUpName' => 'popSuccess', 'title' => "Ok", 'caption' => $sql .  "Entro pochi minuti riceverai una mail di conferma all'indirizzo specificato. Controlla anche la cartella di spam"));
     }
     CloseCon($conn);
 } else {
