@@ -39,8 +39,6 @@ function CloseCon($conn)
 
 // Controllo se l'email è presente nel dominio
 if (checkEmail($email)){
-    $conn = OpenCon();
-if (checkEmail($email)){
     //controllo se l'email è già presente nel db
     $conn = OpenCon();
     $sql = "SELECT * FROM utente WHERE email = '$email'";
