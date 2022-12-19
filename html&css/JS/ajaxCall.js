@@ -71,7 +71,7 @@ function callFeedbackGET(formName, urlToCall){
     urlToCall += '?';
     for(i=0; i<elements.length; i++){
         var name = elements[i].getAttribute("name");
-        if(!elements[i].checkValidity()){
+        if(!elements[i].validity.valid){
             popup("popWarning", "Attenzione!", "Il campo " + name + " è obbligatorio");
             return false;
         }
@@ -115,7 +115,7 @@ function callConfirm(formName, popConfirmTitle, popConfirmCaption, urlToCall){
     var data = new FormData();
     for(i=0; i<elements.length; i++){
         var name = elements[i].getAttribute("name");
-        if(!elements[i].checkValidity()){
+        if(!elements[i].validity.valid){
             popup("popWarning", "Attenzione!", "Il campo " + name + " è obbligatorio");
             return false;
         }
