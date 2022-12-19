@@ -31,7 +31,7 @@ if (checkEmail($email)){
     $sql = "SELECT * FROM utente WHERE email = '" . $email . "'";
     $result = $conn->query($sql);
     if ($result->num_rows > 0) {
-        echo json_encode(array('popUpName' => 'popWarning', 'title' => "Attenzione", 'caption' => 'Email già presente nel database'));
+        echo json_encode(array('popUpName' => 'popWarning', 'title' => "Attenzione", 'caption' => $sql . 'Email già presente nel database'));
     } else {
         $sql = "INSERT INTO `utente` (`email`) VALUES ('" . $email . "')";
         $result = $conn->query($sql);
