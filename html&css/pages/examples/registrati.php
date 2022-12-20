@@ -1,9 +1,14 @@
 <?php
 require 'controlloEmail.php';
+require 'sendEmail.php';
 
 $email = $_GET['email'];
 
-//connessione al db
+/*
+    * Apertura connessione al database
+    * In caso di errore viene creato un popup di errore terminato lo script
+    * @return mysqli
+*/
 function OpenCon()
 {
     $dbhost = "localhost";
@@ -19,22 +24,33 @@ function OpenCon()
     return $conn;
 }
 
+/*
+    * Chiusura connessione al database
+    * @param mysqli $conn
+*/
 function CloseCon($conn)
 {
     $conn->close();
 }
 
-//controllo se l'email è nel dominio
+/*
+    SCRIPT PRINCIPALE
+*/
+
+// Controllo se l'email è presente nel dominio
 if (checkEmail($email)){
     //controllo se l'email è già presente nel db
     $conn = OpenCon();
     $sql = "SELECT * FROM Utente WHERE email = '$email'";
     $result = $conn->query($sql);
-    if ($result->num_rows > 0) {
-        echo json_encode(array('popUpName' => 'popWarning', 'title' => "Attenzione", 'caption' => 'Email già presente nei nostri sistemi. Se hai perso il codice, vai alla pagina di recupero'));
+    // Controllo se l'email è già presente nel database
+    if ($result->num_rows > 0) {  
+        echo json_encode(array('popUpName' => 'popWarning', 'title' => "Attenzione", 'caption' => 'Email già presente nel database'));
+    // Invio email per l'attivazione dell'account
     } else {
-        $sql = "INSERT INTO `Utente` (`email`) VALUES ('$email')";
-        $result = $conn->query($sql);
+        /*$sql = "INSERT INTO `utente` (`email`) VALUES ('$email')";
+        $result = $conn->query($sql);*/
+        sendEmail($email);
         echo json_encode(array('popUpName' => 'popSuccess', 'title' => "Ok", 'caption' => "Entro pochi minuti riceverai una mail di conferma all'indirizzo specificato. Controlla anche la cartella di spam"));
     }
     CloseCon($conn);
