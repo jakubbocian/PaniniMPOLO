@@ -50,7 +50,7 @@ function popup(popUpName, title, caption){
 }
 
 //funzione per inserire all'interno di un div una porzione di codice HTML. Il campo addOrReplace serve per decidere se il div va rimpiazzato in toto oppure va agggiunto
-function callView(divId, urlToCall, addOrReplace){
+function callView(divId, pageToCall, addOrReplace){
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
@@ -60,15 +60,45 @@ function callView(divId, urlToCall, addOrReplace){
                 document.getElementsByTagName(divId).innerHTML = this.response;
        }
     };
-    xmlhttp.open("GET", urlToCall , true);
+    xmlhttp.open("GET", pageToCall , true);
     xmlhttp.send();
 }
 
-//funzione per effettuare operazioni GET sul back-end e restituire un feedback all'utente
-function callFeedbackGET(formName, urlToCall){
+//funzione per effettuare operazioni GET sul back-end inviando un form già valido 
+// e restituire una porzione HTML ed un feedback all'utente
+function callViewFeedback(divId, formName, pageToCall){
     var elements = document.forms[formName].elements;
     //formattazione dei parametri della URL
-    urlToCall += '?';
+    for(i=0; i<elements.length; i++){
+        var name = elements[i].getAttribute("name");
+        var value = elements[i].value;
+        pageToCall += name + '=' + value +'&';
+    }   
+    //invio della richiesta
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            const res = JSON.parse(this.response);
+            if(res.popUpName != "popDanger"){
+                if(addOrReplace == 'add')
+                    document.getElementById(divId).innerHTML += res.code;
+                else
+                    document.getElementById(divId).innerHTML = res.code;
+            }
+            //visualizza il popup specificato da popUpName con un titolo e una descrizione passati al metodo a partire dal json
+            popup(res.popUpName, res.title, res.caption);
+        }
+    };
+    xmlhttp.open("GET", pageToCall , true);
+    xmlhttp.send();
+    return false;
+}
+
+//funzione per effettuare operazioni GET sul back-end e restituire un feedback all'utente
+function callFeedbackGET(formName, pageToCall){
+    var elements = document.forms[formName].elements;
+    //formattazione dei parametri della URL
+    pageToCall += '?';
     for(i=0; i<elements.length; i++){
         var name = elements[i].getAttribute("name");
         if(!elements[i].validity.valid){
@@ -76,7 +106,7 @@ function callFeedbackGET(formName, urlToCall){
             return false;
         }
         var value = elements[i].value;
-        urlToCall += name + '=' + value +'&';
+        pageToCall += name + '=' + value +'&';
     }   
     //invio della richiesta
     var xmlhttp = new XMLHttpRequest();
@@ -87,12 +117,12 @@ function callFeedbackGET(formName, urlToCall){
             popup(res.popUpName, res.title, res.caption);
     }
     };
-    xmlhttp.open("GET", urlToCall , true);
+    xmlhttp.open("GET", pageToCall , true);
     xmlhttp.send();
     return false;
 }
 
-function callFeedbackPOST(urlToCall, dataToSend){
+function callFeedbackPOST(pageToCall, dataToSend){
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
@@ -101,14 +131,14 @@ function callFeedbackPOST(urlToCall, dataToSend){
             popup(res.popUpName, res.title, res.caption);
        }
     };
-    xmlhttp.open("POST", urlToCall, true);
+    xmlhttp.open("POST", pageToCall, true);
     xmlhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
     xmlhttp.send(dataToSend);
     popup("popConfirm", "", "");
 }
 
 //funzione per effettuare operazioni POST sul back-end che necessitano una conferma da parte dell'utente
-function callConfirm(formName, popConfirmTitle, popConfirmCaption, urlToCall){
+function callConfirm(formName, popConfirmTitle, popConfirmCaption, pageToCall){
     //formatta i dati di un form o di campi hidden come il seguente  <input type="hidden" id="custId" name="custId" value="3487">, 
     // N.B. come parametro passare solo il valore di NAME del campo da inviare
     var elements = document.forms[formName].elements;
@@ -123,7 +153,24 @@ function callConfirm(formName, popConfirmTitle, popConfirmCaption, urlToCall){
         data.append(name, value);
     }   
     //chiamata POST con feedback
-    document.getElementById("confirmOk").onclick = callFeedbackPOST(urlToCall, data);
+    document.getElementById("confirmOk").onclick = callFeedbackPOST(pageToCall, data);
+    popup("popConfirm", popConfirmTitle, popConfirmCaption);
+    return false;
+}
+
+//funzione per effettuare operazioni POST sul back-end che necessitano una conferma da parte dell'utente
+function callConfirmNoValidation(formName, popConfirmTitle, popConfirmCaption, pageToCall){
+    //formatta i dati di un form o di campi hidden come il seguente  <input type="hidden" id="custId" name="custId" value="3487">, 
+    // N.B. come parametro passare solo il valore di NAME del campo da inviare
+    var elements = document.forms[formName].elements;
+    var data = new FormData();
+    for(i=0; i<elements.length; i++){
+        var name = elements[i].getAttribute("name");
+        var value = elements[i].value;
+        data.append(name, value);
+    }   
+    //chiamata POST con feedback
+    document.getElementById("confirmOk").onclick = callFeedbackPOST(pageToCall, data);
     popup("popConfirm", popConfirmTitle, popConfirmCaption);
     return false;
 }
