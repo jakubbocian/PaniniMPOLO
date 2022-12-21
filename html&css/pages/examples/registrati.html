@@ -41,7 +41,7 @@
     <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
     <script type="text/javascript" async=""
         src="https://www.googletagmanager.com/gtag/js?id=UA-141734189-6&amp;l=dataLayer&amp;cx=c"></script>
-    <script type="text/javascript" src="registrazione.js"></script>
+    <script type="text/javascript" src="../../JS/ajaxCall.js"></script>
     <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-THQTXJ7"></script>
     <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
     <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-THQTXJ7"></script>
@@ -21514,7 +21514,7 @@
                                 <h1 class="h3">IIS MP SNACKS</h1>
                                 <p class="text-gray">Registrati per ricevere il codice d'acquisto</p>
                             </div>
-                            <form action="#" class="mt-4">
+                            <form action="#" class="mt-4" name="registratiForm">
                                 <div class="form-group mb-4"><label for="email">Email</label>
                                     <div class="input-group"><span class="input-group-text" id="basic-addon1"><svg
                                                 class="icon icon-xs text-gray-600" fill="currentColor"
@@ -21525,25 +21525,25 @@
                                                 <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z">
                                                 </path>
                                             </svg> </span><input type="email" class="form-control"
-                                            placeholder="nome.cognome@mpolo.it" id="email" autofocus="" required="">
+                                            placeholder="nome.cognome@mpolo.it" id="email" name="email" autofocus="" required>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="mb-4">
-                                        <div class="form-check"><input class="form-check-input" type="checkbox" value=""
-                                                id="remember" required="required"> <label
+                                        <div class="form-check"><input class="form-check-input" name="termini e condizioni" type="checkbox" value=""
+                                                id="remember" required> <label
                                                 class="form-check-label fw-normal mb-0" for="remember">Aderisco
                                                 ai&nbsp;<a href="#" class="fw-bold" data-bs-toggle="modal"
                                                     data-bs-target="#modal-default">termini e alle condizioni
                                                     d'utilizzo</a></label></div>
                                     </div>
                                 </div>
-                                <div class="d-grid"><button type="submit" class="btn btn-gray-800" id="registrati"
-                                        onclick="checkEmail()">Registrati</button></div>
+                                <div class="d-grid"><button type='button' class="btn btn-gray-800" id="registrati"
+                                        onclick="callFeedbackGET('registratiForm','registrati.php')">Registrati</button></div>
                             </form>
                             <div class="d-flex justify-content-center align-items-center mt-4"><span
                                     class="fw-normal">Hai già un codice?&nbsp;<a
-                                        href="http://iismpsnacks.altervista.org/html&amp;css/pages/examples/codice.html"
+                                        href="codice.html"
                                         class="fw-bold">Inseriscilo qui</a></span></div>
                         </div>
                     </div>

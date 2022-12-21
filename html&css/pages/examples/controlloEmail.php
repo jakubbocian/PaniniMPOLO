@@ -1,7 +1,7 @@
 <?php
 /*
     * Restituisce un array con tutti gli alunni
-    * @return array con tutti gli alunni
+    * @return array
 */
 function getAlunni() {
     $dati = array();
