@@ -1,5 +1,6 @@
 <?php
 session_start();
+$_SESSION["userCode"] = "la1961";
 ?>
 
 <html><head>
@@ -63,7 +64,7 @@ session_start();
                 </svg>
               </a>
               <form action="#" name="carelloForm">
-              <input type="hidden" name="userCode" value="<?php $_SESSION["userCode"] ?>">
+                <input type="hidden" name="userCode" value="<?php $_SESSION["userCode"] ?>">
                 <div class="dropdown-menu dropdown-menu-lg dropdown-menu-center mt-2 py-0">
                   <div id="carrelloDiv" class="list-group list-group-flush">
                     <div class="text-center text-primary fw-bold border-bottom border-light py-3">Carrello</div>
