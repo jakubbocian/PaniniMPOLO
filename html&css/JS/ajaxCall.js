@@ -55,9 +55,9 @@ function callView(divId, pageToCall, addOrReplace){
     xmlhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             if(addOrReplace == 'add')
-                document.getElementsByTagName(divId).innerHTML += this.response;
+                document.getElementById(divId).innerHTML += this.response;
             else
-                document.getElementsByTagName(divId).innerHTML = this.response;
+                document.getElementById(divId).innerHTML = this.response;
        }
     };
     xmlhttp.open("GET", pageToCall , true);
